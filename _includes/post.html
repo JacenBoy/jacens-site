@@ -14,7 +14,7 @@
     <main>
       <div class="container mb-4">
         <h1 class="text-center">{{ title }}</h1>
-        <p class="text-center lead">{{ date | date: "%B %d, %Y" }}</p>
+        <p class="text-center lead">{{ date | toLocalTime }}</p>
         <hr />
         {{ content }}
       </div>

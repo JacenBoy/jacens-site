@@ -1,5 +1,6 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const markdownIt = require("markdown-it");
+const {DateTime} = require("luxon");
 
 module.exports = function(eleventyConfig) {
 	const md = new markdownIt({
@@ -20,5 +21,9 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter("markdown", (content) => {
 		return md.render(content).replace(/<img .*>/g, "");
+	});
+
+	eleventyConfig.addFilter("toLocalTime", (date) => {
+		return DateTime.fromJSDate(date, {zone: "UTC"}).toLocaleString(DateTime.DATE_FULL);
 	});
 };

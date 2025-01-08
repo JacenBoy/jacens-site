@@ -16,7 +16,7 @@ title: Home
     <div class="card" data-bs-theme="dark">
       <div class="card-body">
         <h3 class="card-title"><a href="{{ latestPost[0].url }}" class="post-title-link">{{ latestPost[0].data.title }}</a></h3>
-        <h4 class="card-subtitle mb-2 text-body-secondary h5">{{ latestPost[0].data.date | date: "%B %d, %Y" }}</h4>
+        <h4 class="card-subtitle mb-2 text-body-secondary h5">{{ latestPost[0].data.date | toLocalTime }}</h4>
         <p class="card-text">{{ latestPost[0].data.page.excerpt | markdown }}</p>
         <a href="{{ latestPost[0].url }}" class="card-link">Read more...</a>
       </div>
@@ -28,7 +28,7 @@ title: Home
     <div class="card" data-bs-theme="dark">
       <div class="card-body">
         <h3 class="card-title"><a href="{{ latestRant[0].url }}" class="post-title-link">{{ latestRant[0].data.title }}</a></h3>
-        <h4 class="card-subtitle mb-2 text-body-secondary h5">{{ latestRant[0].data.date | date: "%B %d, %Y" }}</h4>
+        <h4 class="card-subtitle mb-2 text-body-secondary h5">{{ latestRant[0].data.date | toLocalTime }}</h4>
         <p class="card-text">{{ latestRant[0].data.page.excerpt | markdown }}</p>
         <a href="{{ latestRant[0].url }}" class="card-link">Read more...</a>
       </div>
