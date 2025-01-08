@@ -9,6 +9,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
 
 	eleventyConfig.addPassthroughCopy("img");
+	eleventyConfig.addPassthroughCopy("styles");
 
   eleventyConfig.setFrontMatterParsingOptions({
 		excerpt: true,
