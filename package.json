@@ -4,7 +4,10 @@
   "description": "A website powered by 11ty",
   "main": "eleventy.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "neocities push _site",
+    "build": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve"
   },
   "keywords": [],
   "author": "Jacen Sekai",
