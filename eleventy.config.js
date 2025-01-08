@@ -14,6 +14,15 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("favicon.ico");
 	eleventyConfig.addPassthroughCopy("robots.txt");
 
+	eleventyConfig.amendLibrary("md", (mdLib) => {
+		mdLib.renderer.rules.table_open = function(tokens, idx) {
+			return `<table class="table table-striped" data-bs-theme="dark">`;
+		};
+		mdLib.renderer.rules.blockquote_open = function(tokens, idx) {
+			return `<blockquote class="blockquote">`;
+		};
+	});
+
   eleventyConfig.setFrontMatterParsingOptions({
 		excerpt: true,
 		excerpt_separator: "<!-- more -->",

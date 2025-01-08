@@ -11,3 +11,18 @@ a:hover {
 .post-title-link {
   text-decoration: none;
 }
+
+.blockquote {
+  border-left: 4px solid #f8f9fa;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  padding-left: 1rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  margin-left: 1rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1rem;
+}
