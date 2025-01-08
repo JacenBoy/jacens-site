@@ -1,0 +1,15 @@
+{
+  "name": "jacens-site",
+  "version": "1.0.0",
+  "description": "A website powered by 11ty",
+  "main": "eleventy.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jacen Sekai",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
