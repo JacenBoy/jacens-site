@@ -1,0 +1,14 @@
+---
+layout: main.html
+title: Socials
+---
+
+<h1 class="text-center">My Socials</h1>
+<p class="lead text-center">Where you can find me</p>
+<hr />
+
+<div class="list-group mt-4 mb-4">
+  {%- for social in socials -%}
+  <a href="{{ social.url }}" class="list-group-item list-group-item-action" target="_blank">{{ social.name }}</a>
+  {%- endfor -%}
+</div>

@@ -10,6 +10,7 @@
   "author": "Jacen Sekai",
   "license": "GPL-3.0-only",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0"
   }
 }

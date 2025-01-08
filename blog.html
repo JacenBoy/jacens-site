@@ -1,0 +1,37 @@
+---
+layout: main.html
+title: Blog
+pagination: 
+  data: collections.blog
+  size: 10
+  alias: posts
+  reverse: true
+---
+
+<h1 class="text-center">Jacen's Blog</h1>
+<p class="lead text-center">My thoughts that I think other people deserve to read</p>
+<hr />
+
+<div class="container-fluid mb-4">
+  {%- for post in posts -%}
+  <div class="card mb-5">
+    <div class="card-body">
+      <h2 class="card-title"><a href="{{ post.url }}" class="link-underline link-underline-opacity-0">{{ post.data.title }}</a></h2>
+      <h3 class="card-subtitle mb-2 text-body-secondary h5">{{ post.data.date | date: "%B %d, %Y" }}</h3>
+      <p class="card-text">{{ post.data.page.excerpt | markdown }}</p>
+      <a href="{{ post.url }}" class="card-link">Read more...</a>
+    </div>
+  </div>
+  {%- endfor -%}
+</div>
+
+<div class="container-fluid text-center mb-4">
+  <div class="row">
+    <div class="col">
+      {% if pagination.href.next %}<a href="{{ pagination.href.next }}" class="btn btn-primary">Older Posts</a>{% endif %}
+    </div>
+    <div class="col">
+      {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}" class="btn btn-primary">Newer Posts</a>{% endif %}
+    </div>
+  </div>
+</div>

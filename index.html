@@ -1,0 +1,37 @@
+---
+layout: main.html
+title: Home
+---
+
+<h1 class="text-center">Jacen Sekai</h1>
+<p class="lead text-center">Welcome to my website</p>
+<hr />
+
+{% assign latestPost = collections.blog | reverse | slice:0, 1 %}
+{% assign latestRant = collections.rant | reverse | slice:0, 1 %}
+
+<div class="container-fluid">
+  <div class="row mb-5">
+    <h2 class="mb-3">Latest Blog Post</h2>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{ latestPost[0].data.title }}</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">{{ latestPost[0].data.date | date: "%B %d, %Y" }}</h6>
+        <p class="card-text">{{ latestPost[0].data.page.excerpt | markdown }}</p>
+        <a href="{{ latestPost[0].url }}" class="card-link">Read more...</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-5">
+    <h2 class="mb-3">Latest Rant</h2>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{ latestRant[0].data.title }}</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">{{ latestRant[0].data.date | date: "%B %d, %Y" }}</h6>
+        <p class="card-text">{{ latestRant[0].data.page.excerpt | markdown }}</p>
+        <a href="{{ latestRant[0].url }}" class="card-link">Read more...</a>
+      </div>
+    </div>
+  </div>
+</div>
