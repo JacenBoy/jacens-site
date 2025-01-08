@@ -11,6 +11,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("img");
 	eleventyConfig.addPassthroughCopy("styles");
 	eleventyConfig.addPassthroughCopy("favicon.ico");
+	eleventyConfig.addPassthroughCopy("robots.txt");
 
   eleventyConfig.setFrontMatterParsingOptions({
 		excerpt: true,
