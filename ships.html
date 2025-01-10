@@ -4,7 +4,7 @@ title: Shipping Discussions
 ---
 
 <h1 class="text-center">Shipping Discussions</h1>
-<p class="lead text-center">Living vicariously through fictuonal characters</p>
+<p class="lead text-center">Living vicariously through fictional characters</p>
 <hr />
 
 <p>Pokémon was a pretty formative franchise for me, and shipping is serious business in that community. I hold it solely responsible for my shipping addiction. With that in mind, this is a place for me to post about various pairings that I like or find particularly interesting.</p>
@@ -31,13 +31,14 @@ title: Shipping Discussions
 
 <script>
   function filterShips() {
-    const searchText = document.getElementById("search").value.toLowerCase();
+    const searchText = document.getElementById("search").value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     const shipList = document.getElementById("shiplist");
     const ships = shipList.getElementsByClassName("shipcard");
 
     for (let i = 0; i < ships.length; i++) {
       const ship = ships[i];
-      if (ship.innerText.toLowerCase().includes(searchText)) {
+      const shipText = ship.innerText.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      if (shipText.includes(searchText)) {
         ship.style.display = "";
       } else {
         ship.style.display = "none";
