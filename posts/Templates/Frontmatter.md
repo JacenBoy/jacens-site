@@ -5,5 +5,6 @@ title: ""
 date: <% tp.date.now() %>
 <%* if (postType == "ship") { -%>
 franchise: ""
+problematic: false
 <%* } -%>
 ---

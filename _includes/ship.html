@@ -11,7 +11,7 @@ permalink: "ships/{{ franchise | slugify }}/{{ title | slugify }}/"
     <title>Shipping Discussion - {{ title }} | Jacen Sekai</title>
 
     <meta property="og:title" content="Shipping Discussion - {{ title }} | Jacen Sekai" />
-    <meta property="og:description" content="Jacen's personal website" />
+    <meta property="og:description" content="Shipping {{ title }} from {{ franchise }}" />
     <meta property="og:image" content="https://jacen.moe/img/you.png" />
     <meta property="og:url" content="https://jacen.moe{{ page.url }}" />
     <meta property="og:type" content="article" />
@@ -28,10 +28,20 @@ permalink: "ships/{{ franchise | slugify }}/{{ title | slugify }}/"
 
     <main>
       <div class="container mb-4">
-        <p class="lead">Shipping Discussion</p>
+        <p class="lead text-center">Shipping Discussion</p>
         <h1 class="text-center">{{ franchise }} - {{ title }}</h1>
         <hr />
-        {{ content }}
+        {% if problematic %}
+        <div class="alert alert-danger" role="alert" data-bs-theme="dark">
+          Fiction is fiction, and reality is reality. I do not condone any illegal, immoral, or unethical activities. However, I also ask that you acknowledge that most well-adjusted people understand the difference between fiction and reality and should be permitted to enjoy whatever content they like as long as they understand why others might find it problematic.
+        </div>
+        {% endif %}
+
+        <div class="container-fluid d-flex align-items-center justify-content-center mb-4">
+          <div class="w-50">
+            {{ content }}
+          </div>
+        </div>
       </div>
     </main>
     <div class="container">
