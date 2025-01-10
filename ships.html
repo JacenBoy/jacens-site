@@ -16,7 +16,7 @@ title: Shipping Discussions
 <hr />
 
 <div class="container-fluid d-flex align-items-center justify-content-center mb-4">
-  <input class="form-control me-2 w-50" type="search" id="search" placeholder="Search" aria-label="Search" data-bs-theme="dark" oninput="filterShips()" />
+  <input class="form-control me-2 w-50" type="search" id="search" placeholder="Search" aria-label="Search" data-bs-theme="dark" autocomplete="off" oninput="filterShips()" />
 </div>
 
 {%- assign ships = collections.ship | shipSort -%}
