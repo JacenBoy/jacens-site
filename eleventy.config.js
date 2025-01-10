@@ -35,4 +35,14 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter("toLocalTime", (date) => {
 		return DateTime.fromJSDate(date, {zone: "UTC"}).toLocaleString(DateTime.DATE_FULL);
 	});
+
+	eleventyConfig.addFilter("shipSort", (ships) => {
+		ships.sort( (a, b) => {
+			if (a.data.franchise == b.data.franchise) {
+				return a.data.title.localeCompare(b.data.title);
+			}
+			return a.data.franchise.localeCompare(b.data.franchise);
+		});
+		return ships;
+	});
 };

@@ -1,0 +1,47 @@
+---
+layout: main.html
+title: Shipping Discussions
+---
+
+<h1 class="text-center">Shipping Discussions</h1>
+<p class="lead text-center">Living vicariously through fictuonal characters</p>
+<hr />
+
+<p>Pokémon was a pretty formative franchise for me, and shipping is serious business in that community. I hold it solely responsible for my shipping addiction. With that in mind, this is a place for me to post about various pairings that I like or find particularly interesting.</p>
+
+<hr />
+
+<div class="container-fluid d-flex align-items-center justify-content-center mb-4">
+  <input class="form-control me-2 w-50" type="search" id="search" placeholder="Search" aria-label="Search" data-bs-theme="dark" oninput="filterShips()" />
+</div>
+
+{%- assign ships = collections.ship | shipSort -%}
+<div class="row" id="shiplist">
+  {%- for ship in ships -%}
+  <div class="col-lg-4 shipcard">
+    <div class="card mb-4" data-bs-theme="dark">
+      <div class="card-body">
+        <h2 class="card-title h4"><a href="{{ ship.url }}" class="post-title-link">{{ ship.data.title }}</a></h2>
+        <h3 class="card-subtitle mb-2 text-body-secondary h5">{{ ship.data.franchise }}</h3>
+      </div>
+    </div>
+  </div>
+  {%- endfor -%}
+</div>
+
+<script>
+  function filterShips() {
+    const searchText = document.getElementById("search").value.toLowerCase();
+    const shipList = document.getElementById("shiplist");
+    const ships = shipList.getElementsByClassName("shipcard");
+
+    for (let i = 0; i < ships.length; i++) {
+      const ship = ships[i];
+      if (ship.innerText.toLowerCase().includes(searchText)) {
+        ship.style.display = "";
+      } else {
+        ship.style.display = "none";
+      }
+    }
+  }
+</script>
