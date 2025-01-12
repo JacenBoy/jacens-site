@@ -26,6 +26,12 @@
 
     <main>
       <div class="container mb-4">
+        {% if tags contains "blog" %}
+        <p class="display-6 text-center">Jacen's Blog</p>
+        {% endif %}
+        {% if tags contains "rant" %}
+        <p class="display-6 text-center">Jacen's Rants</p>
+        {% endif %}
         <h1 class="text-center">{{ title }}</h1>
         <p class="text-center lead">{{ date | toLocalTime }}</p>
         <hr />
