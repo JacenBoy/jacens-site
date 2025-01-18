@@ -1,4 +1,5 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const embeds = require("eleventy-plugin-embed-everything");
 const markdownIt = require("markdown-it");
 const {DateTime} = require("luxon");
 
@@ -8,6 +9,7 @@ module.exports = function(eleventyConfig) {
 	});
 
   eleventyConfig.addPlugin(syntaxHighlight);
+	eleventyConfig.addPlugin(embeds);
 
 	eleventyConfig.addPassthroughCopy("img");
 	eleventyConfig.addPassthroughCopy("styles");
