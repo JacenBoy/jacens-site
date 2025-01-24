@@ -1,6 +1,8 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const embeds = require("eleventy-plugin-embed-everything");
 const markdownIt = require("markdown-it");
+const {stripHtml} = require("string-strip-html");
+const {encode} = require("html-entities");
 const {DateTime} = require("luxon");
 
 module.exports = function(eleventyConfig) {
@@ -32,6 +34,10 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter("markdown", (content) => {
 		return md.render(content).replace(/<img .*>/g, "");
+	});
+
+	eleventyConfig.addFilter("formatExcerpt", (content) => {
+		return encode(stripHtml(md.render(content)).result);
 	});
 
 	eleventyConfig.addFilter("toLocalTime", (date) => {
