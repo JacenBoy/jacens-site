@@ -8,7 +8,7 @@ Qubes is a project that has always intrigued me. Although I don't have a threat 
 
 All my previous attempts to daily drive Qubes were cut short for one simple reason: performance. I simply didn't have a device that could run Qubes at an acceptable level of performance.
 
-However, now armed with a shiny new [Framework 16](https://write.jacen.moe/jacens-framework-16-review), I was hopeful that I could actually run Qubes to a degree that I was happy with. Unfortunately, it wasn't quite as smooth as I would have hoped.
+However, now armed with a shiny new [Framework 16](https://jacen.moe/blog/20240221-jacens-framework-16-review/), I was hopeful that I could actually run Qubes to a degree that I was happy with. Unfortunately, it wasn't quite as smooth as I would have hoped.
 <!-- more -->
 
 ## Installation

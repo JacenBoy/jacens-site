@@ -11,7 +11,7 @@ Fortunately, there's always an alternative solution.
 It's not a good or viable solution, but beggars can't be choosers, right?
 <!-- more -->
 
-I have [previously run a Linux virtual machine on an Android phone](https://write.jacen.moe/running-qemu-on-an-android-host) using [Termux](https://github.com/termux/termux-app) and [QEMU](https://www.qemu.org), and while the performance was about as bad as you'd expect, Pi-hole's system requirements are fairly low, so why not try and adapt that solution to run a local Pi-hole instance on a phone?
+I have [previously run a Linux virtual machine on an Android phone](https://jacen.moe/blog/20211227-running-qemu-on-an-android-host/) using [Termux](https://github.com/termux/termux-app) and [QEMU](https://www.qemu.org), and while the performance was about as bad as you'd expect, Pi-hole's system requirements are fairly low, so why not try and adapt that solution to run a local Pi-hole instance on a phone?
 
 If you haven't installed it already, the first step is to get Termux. It seems like they really want you to just install it from GitHub, but it is available on F-Droid as well. Instructions for installing it are available in their GitHub repository.
 
