@@ -1,16 +1,21 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const rssFeed = require("@11ty/eleventy-plugin-rss");
 const embeds = require("eleventy-plugin-embed-everything");
 const markdownIt = require("markdown-it");
 const {stripHtml} = require("string-strip-html");
 const {encode} = require("html-entities");
 const {DateTime} = require("luxon");
 
-module.exports = function(eleventyConfig) {
+module.exports = async function(eleventyConfig) {
+	const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
+
 	const md = new markdownIt({
 		html: true,
 	});
 
+	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(syntaxHighlight);
+	eleventyConfig.addPlugin(rssFeed);
 	eleventyConfig.addPlugin(embeds);
 
 	eleventyConfig.addPassthroughCopy("img");
@@ -40,8 +45,16 @@ module.exports = function(eleventyConfig) {
 		return encode(stripHtml(md.render(content)).result);
 	});
 
+	eleventyConfig.addFilter("stripNewlines", (content) => {
+		return content.replace(/[\r\n]+/g, ' ');
+	});
+
 	eleventyConfig.addFilter("toLocalTime", (date) => {
 		return DateTime.fromJSDate(date, {zone: "UTC"}).toLocaleString(DateTime.DATE_FULL);
+	});
+
+	eleventyConfig.addFilter("toUTC", (date) => {
+		return date.toUTCString();
 	});
 
 	eleventyConfig.addFilter("shipSort", (ships) => {
@@ -53,4 +66,8 @@ module.exports = function(eleventyConfig) {
 		});
 		return ships;
 	});
+
+	eleventyConfig.addLiquidFilter("dateToRfc3339", rssFeed.dateToRfc3339);
+
+	eleventyConfig.addLiquidFilter("getNewestCollectionItemDate", rssFeed.getNewestCollectionItemDate);
 };

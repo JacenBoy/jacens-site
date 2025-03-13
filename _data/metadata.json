@@ -1,0 +1,10 @@
+{
+  "title": "Jacen Sekai Website",
+  "url": "https://jacen.moe/",
+  "feed": {
+    "path": "/feeds/main.xml",
+    "id": "https://jacen.moe/",
+    "url": "https://jacen.moe/feeds/main.xml",
+    "subtitle": "Jacen's personal website"
+  }
+}
