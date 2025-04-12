@@ -3,7 +3,8 @@ layout: rant.html
 title: An Ave Mujica 3 Episode Rule Rant
 date: 2025-01-20
 ---
-## **Beware of Ave Mujica - The Die is Cast - spoilers**
+
+{% spoiler %}Beware of Ave Mujica - The Die is Cast - spoilers{% endspoiler %}
 
 I do not subscribe to the 3 episode rule. There are plenty of anime that take longer than that to actually click. With that said, I'm excited to announce that Ave Mujica does actually pass the 3 episode rule. Barely.
 <!-- more -->

@@ -3,6 +3,9 @@ layout: rant.html
 title: My Least Favorite Anime - A Hanebado Rant
 date: 2025-03-22
 ---
+
+{% spoiler %}Beware of minor Hanebado spoilers{% endspoiler %}
+
 I hate Hanebado.
 
 That's not something I say lightly. I've watched a lot of garbage anime, and the list of shows I can say I legitimately disliked, much less hated, is very short. With that in mind, what could possibly be so bad about Hanebado that I felt the need to dive deeply into the details of exactly why I hate it? Let's jump into it.

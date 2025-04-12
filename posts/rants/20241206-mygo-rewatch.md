@@ -4,7 +4,7 @@ title: "Jacen's MyGO Rewatch Reaction"
 date: 2024-12-06
 ---
 
-## **Beware of BanG Dream! It's MyGO!!!!! spoilers**
+{% spoiler %}Beware of BanG Dream! It's MyGO!!!!! spoilers{% endspoiler %}
 
 I consider MyGO to be on the shortlist of the greatest anime of all time.
 

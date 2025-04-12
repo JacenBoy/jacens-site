@@ -37,12 +37,16 @@ module.exports = async function(eleventyConfig) {
 		excerpt_separator: "<!-- more -->",
 	});
 
+	eleventyConfig.addPairedShortcode("spoiler", (content) => {
+		return `<div class="alert alert-warning" data-bs-theme="dark"><p class="h4 alert-heading mb-0"><b>${content}</b></p></div>`;
+	});
+
 	eleventyConfig.addFilter("markdown", (content) => {
-		return md.render(content).replace(/<img .*>/g, "");
+		return md.render(content).replace(/<img .*>/g, "").replace(/{% .* %}(.*){% end.* %}/g, "<b>$1</b>");
 	});
 
 	eleventyConfig.addFilter("formatExcerpt", (content) => {
-		return encode(stripHtml(md.render(content)).result);
+		return encode(stripHtml(md.render(content).replace(/{% .* %}(.*){% end.* %}/g, "$1")).result);
 	});
 
 	eleventyConfig.addFilter("stripNewlines", (content) => {

@@ -3,7 +3,8 @@ layout: rant.html
 title: How Not To Pace An Anime - Ave Mujica Episode 4 Rant
 date: 2025-01-25
 ---
-## **Beware of general BanG Dream! spoilers**
+
+{% spoiler %}Beware of general BanG Dream! spoilers{% endspoiler %}
 
 [Since my last Ave Mujica post,](https://jacen.moe/rants/20250119-an-ave-mujica-3-episode-rule-rant/) the anime has decided to once again go off the deep end with its pacing.
 <!-- more -->

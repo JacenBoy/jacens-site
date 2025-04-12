@@ -4,7 +4,7 @@ title: "How not to write a sympathetic villain arc, feat. F1 23"
 date: 2023-06-17
 ---
 
-## **Beware of Braking Point spoilers**
+{% spoiler %}Beware of Braking Point spoilers{% endspoiler %}
 
 For the uninitiated, the Formula 1 video games added a feature in F1 2021 called "Braking Point". It's basically a story mode, where you role play as a young F1 driver and get thrown into various scenarios along the way. As far as stories go, it's definitely not going to win any awards, but sometimes a cringe campy story is all you really want from a video game.
 <!-- more -->
