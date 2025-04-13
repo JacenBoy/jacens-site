@@ -4,7 +4,7 @@ title: My Least Favorite Anime - A Hanebado Rant
 date: 2025-03-22
 ---
 
-{% spoiler %}Beware of minor Hanebado spoilers{% endspoiler %}
+{% spoiler %}Beware of "Hanebado" spoilers{% endspoiler %}
 
 I hate Hanebado.
 

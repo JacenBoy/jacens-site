@@ -4,7 +4,7 @@ title: "MyGO!!!!! and CRYCHIC - Two bands made up of terrible people"
 date: 2023-09-14
 ---
 
-{% spoiler %}Beware of BanG Dream! It's MyGO!!!!! spoilers{% endspoiler %}
+{% spoiler %}Beware of "BanG Dream! It's MyGO!!!!!" spoilers{% endspoiler %}
 
 I don't think it's an exaggeration to call the Bandori MyGO anime one of the best anime of all time. It's utterly emotion-filled, and every episode hits you with a gut punch. I'm sure there will be plenty of people writing in-depth reviews and analyses, so I'm going to focus on my personal observation: every character in this anime is a terrible self-centered person.
 <!-- more -->
