@@ -42,14 +42,17 @@ module.exports = async function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("markdown", (content) => {
+		if (!content) return "";
 		return md.render(content).replace(/<img .*>/g, "").replace(/{% .* %}(.*){% end.* %}/g, "<b>$1</b>");
 	});
 
 	eleventyConfig.addFilter("formatExcerpt", (content) => {
+		if (!content) return "";
 		return encode(stripHtml(md.render(content).replace(/{% .* %}(.*){% end.* %}/g, "$1")).result);
 	});
 
 	eleventyConfig.addFilter("stripNewlines", (content) => {
+		if (!content) return "";
 		return content.replace(/[\r\n]+/g, ' ');
 	});
 
