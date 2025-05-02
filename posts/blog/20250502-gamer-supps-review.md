@@ -30,17 +30,23 @@ With all that preamble out of the way, let's get into the actual tasting.
 
 ## Lemonade
 
+![Packaging for the Lemonade flavor](https://i.snap.as/0mu01Eag.jpg)
+
 One of the few flavors to have a normal name. The art on the packaging, however, was less so.
 
 This one had a very stereotypical lemonade mix flavor. It's not too tangy, but it's also not as refreshing a proper lemonade. If you're into that kind of fake lemon flavor that's common in these kinds of drink mixes, this will probably taste familiar to you. I didn't initially pick up on the sucralose flavor, but it did eventually sneak its way in as I got to the end of the bottle. Even then, it wasn't overpowering, although I absolutely did taste the lack of sugar. Overall, it's not something I would spend money to drink, but I wouldn't turn it away if it was placed in front of me.
 
 ## Guacamole Gamer Fart 9000
 
-Surely they didn't create a guacamole flavored energy drink, right?
+![Packaging for the Guacamole Gamer Fart 9000 flavor](https://i.snap.as/sLT5t8YI.jpg)
+
+Surely, they didn't create a guacamole flavored energy drink, right?
 
 Fortunately, no. Cringe marketing aside, this one had a pretty strong lime flavor and a similar mouthfeel to the lemonade, if a bit less strong. Notably, the sucralose flavor was much less pronounced in this one. Once again, this isn't a flavor I would go out of my way to try, but I still enjoyed it as a free thing. 
 
 ## Blo'hole Blast
+
+![Packaging for the Blo'hole Blast flavor](https://i.snap.as/oxLOmEZ9.jpg)
 
 Have I mentioned how much I hate the branding? I think I mentioned how much I hate the branding.
 
