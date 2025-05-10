@@ -28,7 +28,7 @@ Minori is idolsexual. Obviously, Minori has a very strong attraction to Haruka. 
 
 ## Haruka Kiritani
 
-Haruka is straight. Before you crucify me for that, hear me out. Haruka's interactions seem to be primarily platonic, and there isn't a lot of romantic subtext to work with (even for Minori). Based on previous examples, that would put her in the bisexual camp. However, for reasons I can't really explain, Haruka is *extremely* easy to headcanon as straight. I don't really have much logic to go off, but that's where she lands for me.
+Haruka is straight. Before you crucify me for that, hear me out. Haruka's interactions seem to be primarily platonic, and there isn't a lot of romantic subtext to work with (even for Minori). Based on previous examples, that would put her in the asexual camp. However, for reasons I can't really explain, Haruka is *extremely* easy to headcanon as straight. I don't really have much logic to go off, but that's where she lands for me.
 
 ## Airi Momoi
 
