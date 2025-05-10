@@ -51,6 +51,16 @@ module.exports = async function(eleventyConfig) {
 		return encode(stripHtml(md.render(content).replace(/{% .* %}(.*){% end.* %}/g, "$1")).result);
 	});
 
+	eleventyConfig.addFilter("postType", (tags) => {
+		try {
+			if (tags.includes("rant")) return "Rant";
+			if (tags.includes("blog")) return "Blog";
+			return "Post";
+		} catch {
+			return "Post";
+		}
+	});
+
 	eleventyConfig.addFilter("stripNewlines", (content) => {
 		if (!content) return "";
 		return content.replace(/[\r\n]+/g, ' ');
@@ -58,6 +68,10 @@ module.exports = async function(eleventyConfig) {
 
 	eleventyConfig.addFilter("toLocalTime", (date) => {
 		return DateTime.fromJSDate(date, {zone: "UTC"}).toLocaleString(DateTime.DATE_FULL);
+	});
+
+	eleventyConfig.addFilter("toFeedTime", (date) => {
+		return DateTime.fromJSDate(date, {zone: "UTC"}).plus({ hours: 4 }).toISO();
 	});
 
 	eleventyConfig.addFilter("toUTC", (date) => {

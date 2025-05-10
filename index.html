@@ -7,31 +7,20 @@ title: Home
 <p class="lead text-center">Welcome to my website</p>
 <hr />
 
-{% assign latestPost = collections.blog | reverse | slice:0, 1 %}
-{% assign latestRant = collections.rant | reverse | slice:0, 1 %}
+{%- assign posts = collections.posts | reverse | slice:0, 10 -%}
 
 <div class="container-fluid">
   <div class="row mb-5">
-    <h2 class="mb-3">Latest Blog Post</h2>
-    <div class="card" data-bs-theme="dark">
+    <h2 class="mb-3">Latest Posts</h2>
+    {%- for post in posts -%}
+    <div class="card mb-3" data-bs-theme="dark">
       <div class="card-body">
-        <h3 class="card-title"><a href="{{ latestPost[0].url }}" class="post-title-link">{{ latestPost[0].data.title }}</a></h3>
-        <h4 class="card-subtitle mb-2 text-body-secondary h5">{{ latestPost[0].data.date | toLocalTime }}</h4>
-        <p class="card-text">{{ latestPost[0].data.page.excerpt | markdown }}</p>
-        <a href="{{ latestPost[0].url }}" class="card-link">Read more...</a>
+        <h3 class="card-title"><a href="{{ post.url }}" class="post-title-link">{{ post.data.title }}</a></h3>
+        <h4 class="card-subtitle mb-2 text-body-secondary h5">{{ post.data.date | toLocalTime }} <span class="badge bg-secondary text-dark">{{ post.data.tags | postType }}</span></h4>
+        <p class="card-text">{{ post.data.page.excerpt | markdown }}</p>
+        <a href="{{ post.url }}" class="card-link">Read more...</a>
       </div>
     </div>
-  </div>
-
-  <div class="row mb-5">
-    <h2 class="mb-3">Latest Rant</h2>
-    <div class="card" data-bs-theme="dark">
-      <div class="card-body">
-        <h3 class="card-title"><a href="{{ latestRant[0].url }}" class="post-title-link">{{ latestRant[0].data.title }}</a></h3>
-        <h4 class="card-subtitle mb-2 text-body-secondary h5">{{ latestRant[0].data.date | toLocalTime }}</h4>
-        <p class="card-text">{{ latestRant[0].data.page.excerpt | markdown }}</p>
-        <a href="{{ latestRant[0].url }}" class="card-link">Read more...</a>
-      </div>
-    </div>
+    {%- endfor -%}
   </div>
 </div>

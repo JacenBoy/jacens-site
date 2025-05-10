@@ -9,18 +9,21 @@ excludeFromCollections: true
   <subtitle>{{ metadata.feed.subtitle }}</subtitle>
   <link href="{{ metadata.feed.url }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
-  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <updated>{{ collections.posts | getNewestCollectionItemDate | toFeedTime }}</updated>
   <id>{{ metadata.feed.id }}</id>
   <author>
     <name>Jacen Sekai</name>
   </author>
-  {%- for post in collections.posts | reverse %}
+  {%- assign posts = collections.posts | reverse -%}
+  {%- for post in posts %}
   {%- capture absolutePostUrl %}{{ post.url | htmlBaseUrl: metadata.url }}{% endcapture %}
   <entry>
     <title>{{ post.data.title | formatExcerpt }}</title>
     <link href="{{ absolutePostUrl }}" />
-    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <published>{{ post.date | toFeedTime }}</published>
+    <updated>{{ post.date | toFeedTime }}</updated>
     <id>{{ absolutePostUrl }}</id>
+    <category term="{{ post.data.tags | postType }}" />
     <content type="html">{{ post.data.page.excerpt | stripNewlines | formatExcerpt }}</content>
   </entry>
   {%- endfor %}
