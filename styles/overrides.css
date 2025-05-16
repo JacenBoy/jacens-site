@@ -83,3 +83,12 @@ pre code {
   margin-top: 1.25rem;
   margin-bottom: 1rem;
 }
+
+.mt-container {
+  max-height: 150vh;
+}
+
+img.profile {
+  max-width: 80px;
+  max-height: 80px;;
+}
