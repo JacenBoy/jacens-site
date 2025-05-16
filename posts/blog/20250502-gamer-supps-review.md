@@ -34,7 +34,7 @@ With all that preamble out of the way, let's get into the actual tasting.
 
 One of the few flavors to have a normal name. The art on the packaging, however, was less so.
 
-This one had a very stereotypical lemonade mix flavor. It's not too tangy, but it's also not as refreshing a proper lemonade. If you're into that kind of fake lemon flavor that's common in these kinds of drink mixes, this will probably taste familiar to you. I didn't initially pick up on the sucralose flavor, but it did eventually sneak its way in as I got to the end of the bottle. Even then, it wasn't overpowering, although I absolutely did taste the lack of sugar. Overall, it's not something I would spend money to drink, but I wouldn't turn it away if it was placed in front of me.
+This one had a very stereotypical lemonade mix flavor. It's not too tangy, but it's also not as refreshing as proper lemonade. If you're into that kind of fake lemon flavor that's common in these kinds of drink mixes, this will probably taste familiar to you. I didn't initially pick up on the sucralose flavor, but it did eventually sneak its way in as I got to the end of the bottle. Even then, it wasn't overpowering, although I absolutely did taste the lack of sugar. Overall, it's not something I would spend money to drink, but I wouldn't turn it away if it was placed in front of me.
 
 ## Guacamole Gamer Fart 9000
 

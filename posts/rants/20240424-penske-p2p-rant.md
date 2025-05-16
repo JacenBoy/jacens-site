@@ -11,11 +11,11 @@ IndyCar race cars are equipped with a system called Push to Pass (or P2P for sho
 
 For the initial start of the race, as well as any restarts following periods of full-course caution, P2P is disabled until the completion of the first green-flag lap, at which time drivers are free to start pressing the P2P button again and using up their allotted pool of time.
 
-So then, to Sunday, March 10 2024: the date of IndyCar's season opener on the streets of St. Petersburg, Florida. The checkered flag falls at the end of the race on Team Penske's Josef Newgarden after an absolutely dominant day. Finishing third is teammate Scott McLaughlin, and Will Power ends up finishing fourth.
+So then, to Sunday, March 10, 2024: the date of IndyCar's season opener on the streets of St. Petersburg, Florida. The checkered flag falls at the end of the race on Team Penske's Josef Newgarden after an absolutely dominant day. Finishing third is teammate Scott McLaughlin, and Will Power ends up finishing fourth.
 
 Fast-forward 45 days to April 24th. It comes out that all three Penske cars had software that bypassed IndyCar's restriction on P2P for starts and restarts, meaning they had access to that extra horsepower almost a full lap before the rest of the field.
 
-How this was caught is [an interesting story on its own](https://racer.com/2024/04/24/how-team-penske-took-push-to-pass-beyond-the-limit/). Generally, IndyCar's race control enables unrestricted P2P for the entire field during practices and pre-race warmup to give teams a chance to test if it works and how the cars react to it. However, due to chasing technical issues during pre-race warmup for IndyCar's second race in Long Beach, California, P2P was not enabled for the field for the first 10 minutes of the 30 minute practice session. This made it very interesting when the three Penske cars, and only the Penske cars, were using P2P during that period when they shouldn't have had access to it.
+How this was caught is [an interesting story on its own](https://racer.com/2024/04/24/how-team-penske-took-push-to-pass-beyond-the-limit/). Generally, IndyCar's race control enables unrestricted P2P for the entire field during practices and pre-race warmup to give teams a chance to test if it works and how the cars react to it. However, due to chasing technical issues during pre-race warmup for IndyCar's second race in Long Beach, California, P2P was not enabled for the field for the first 10 minutes of the 30-minute practice session. This made it very interesting when the three Penske cars, and only the Penske cars, were using P2P during that period when they shouldn't have had access to it.
 
 This triggered a review of the previous race at St. Pete, where it was determined that Newgarden and McLaughlin did indeed use P2P a lap early during the race. Power, despite also having early access to the button, did not actually press it.
 
@@ -27,7 +27,7 @@ That isn't really the main concern. The bigger issue is the conflict of interest
 
 In case you still weren't sure, yes, he is also the owner of Team Penske.
 
-IndyCar race cars send a lot of live telemetry back to the car's pit box, the team that fields the car, the manufacturers of the engines, and to IndyCar race control themselves. In fact, it was this very live telemetry that tipped IndyCar off to the potential issue and lead them to take a second look at the previous race at St. Pete. So then, how did the P2P usage slip through the cracks back then and only get noticed over a month later?
+IndyCar race cars send a lot of live telemetry back to the car's pit box, the team that fields the car, the manufacturers of the engines, and to IndyCar race control themselves. In fact, it was this very live telemetry that tipped IndyCar off to the potential issue and led them to take a second look at the previous race at St. Pete. So then, how did the P2P usage slip through the cracks back then and only get noticed over a month later?
 
 I've seen people praising IndyCar for coming down hard on Penske with the pretty heavy-handed penalties, and that's definitely something to be applauded. That said, IndyCar also didn't really have a choice. If they tried to sweep things under the rug it would only have made things infinitely worse when the truth inevitably came to light down the road. This isn't IndyCar having integrity by not giving their owner special treatment. This is IndyCar having no choice but to penalize and penalize hard.
 

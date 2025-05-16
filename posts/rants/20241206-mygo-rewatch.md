@@ -19,7 +19,7 @@ Next, we're introduced to Anon, who will be our focus character for the majority
 
 As Anon meets Sakiko for the first time, we learn basically nothing about the girl partially responsible for kicking off all the drama in this anime. Get used to that feeling; it doesn't improve.
 
-"Haneoka's Weirdo Girl" leaves quite an impression in her debut. We'll have an opportunity to go more in-depth on her later, so I'll once again leave things there for now. Experienced Bandori fans might recognize the notebooks and posters in Tomori's clubroom as belonging to a certain other character who was the president of the astronomy club before graduating. I guess that club just has a tendency to attract the more eccentric students.
+Tomori, "Haneoka's Weirdo Girl", leaves quite an impression in her debut. We'll have an opportunity to go more in-depth on her later, so I'll once again leave things there for now. Experienced Bandori fans might recognize the notebooks and posters in Tomori's clubroom as belonging to a certain other character who was the president of the astronomy club before graduating. I guess that club just has a tendency to attract the more eccentric students.
 
 Moving on to Tsukinomori, we're reintroduced to two more characters of CRYCHIC fame: Mutsumi, the second party in the drama instigation, and Soyo, who is in the key visual, so you can guess that she's going to be important. Soyo quickly drops into the "motherly girl" role. It's immediately made very apparent that she still cares quite a bit for Saki and Mutsumi, even after their roles in tearing down CRYCHIC not long ago.
 

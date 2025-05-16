@@ -6,7 +6,7 @@ date: 2023-09-14
 
 {% spoiler %}Beware of "BanG Dream! It's MyGO!!!!!" spoilers{% endspoiler %}
 
-I don't think it's an exaggeration to call the Bandori MyGO anime one of the best anime of all time. It's utterly emotion-filled, and every episode hits you with a gut punch. I'm sure there will be plenty of people writing in-depth reviews and analyses, so I'm going to focus on my personal observation: every character in this anime is a terrible self-centered person.
+I don't think it's an exaggeration to call the Bandori MyGO anime one of the best anime of all time. It's utterly emotion-filled, and every episode hits you with a gut punch. I'm sure there will be plenty of people writing in-depth reviews and analyses, so I'm going to focus on my personal observation: every character in this anime is a terrible, self-centered person.
 <!-- more -->
 
 **Anon** - Anon's base motivation for everything she does is increasing her own clout and popularity, and while she does mellow out and start caring a bit more for her fellow bandmates, she never fully loses her gremlin tendencies.
@@ -21,6 +21,6 @@ I don't think it's an exaggeration to call the Bandori MyGO anime one of the bes
 
 **Mutsumi** - If Saki is the instigator of the drama in MyGO, Mutsumi is the one who dealt the fatal blow. Soyo observes that Mutsumi has no filter, so it's possible she didn't actually intend to hurt anyone with her words, but "I didn't mean to" isn't an acceptable excuse to hide behind.
 
-**Tomori** - The only major character who isn't just straight up a terrible person. While you could argue that a few of her actions throughout the course of the show might have been a little selfish, at the end of the day her motivation is just to be a normal person, which is a wish that everyone is entitled to having. While when all is said and done she doesn't quite get that wish, at least she gets to have the company of people who are just as lost as she is.
+**Tomori** - The only major character who isn't just straight up a terrible person. While you could argue that a few of her actions throughout the course of the show might have been a little selfish, at the end of the day, her motivation is just to be a normal person, which is a wish that everyone is entitled to having. While when all is said and done she doesn't quite get that wish, at least she gets to have the company of people who are just as lost as she is.
 
 At the end of the day, pretty much everyone in this show is a terrible person in some way, and the fact that it still manages to get you to care about and root for all of them is just another testament to how good of an anime it is.
