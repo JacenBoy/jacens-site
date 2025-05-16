@@ -24,10 +24,12 @@ title: Home
       </div>
       {%- endfor -%}
     </div>
+
     <div class="col-lg-4">
       <div class="card mb-3 h-card" data-bs-theme="dark">
         <div class="card-body">
-          <h2 class="h4 card-title"><a class="post-title-link p-name u-url" href="https://jacen.moe" rel="me"><img class="profile u-photo" src="/img/you.png" alt="Avatar" /> Jacen Sekai</a></h2>
+          <h2 class="h4 card-title"><a class="post-title-link p-name u-url" href="https://jacen.moe" rel="me"><img class="profile u-photo" src="/img/you.png" alt="" /> Jacen Sekai</a></h2>
+          <p class="card-text p-note">IT wizard, wannabe coder, dub connoisseur.</p>
         </div>
       </div>
 
@@ -45,7 +47,9 @@ const tlOptions = {
   instanceUrl: "https://mastodon.jacen.moe",
   timelineType: "profile",
   userId: "108765588060118796",
-  profileName: "@jacenboy"
+  profileName: "@jacenboy",
+  maxNbPostShow: "10",
+  dateFormatLocale: "en-US"
 };
 window.addEventListener("load", () => {
   const myTimeline = new MastodonTimeline.Init(tlOptions);
