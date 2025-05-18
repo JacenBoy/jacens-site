@@ -76,4 +76,4 @@ We all received 3 additional packs as prizes for completing our games. I didn't 
 
 ## Conclusion
 
-For the second time, I went 1-2 in the prerelease. That said, the vibe of local events is always pretty positive, and it was a fun time. 3 hits out of 7 packs also wasn't bad as far as pulls are concerned, especially since one of them ended up as an SIR. I'm not sure how well these cards will adapt to the standard meta, but it will be interesting to see how things change once the cards become legal.
+For the second time, I went 1-2 in the prerelease. That said, the vibe of local events is always pretty positive, and it was a fun time. 2 hits out of 7 packs also wasn't bad as far as pulls are concerned, especially since one of them ended up as an SIR. I'm not sure how well these cards will adapt to the standard meta, but it will be interesting to see how things change once the cards become legal.
