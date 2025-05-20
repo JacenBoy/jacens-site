@@ -50,7 +50,9 @@ const tlOptions = {
   profileName: "@jacenboy",
   maxNbPostShow: "10",
   dateFormatLocale: "en-US",
-  defaultTheme: "dark"
+  defaultTheme: "dark",
+  hidePinnedPosts: true,
+  previewMaxLines: "4"
 };
 window.addEventListener("load", () => {
   const myTimeline = new MastodonTimeline.Init(tlOptions);
