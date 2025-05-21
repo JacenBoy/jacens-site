@@ -6,7 +6,7 @@ date: 2025-05-20
 An excerpt from Discord discussing the optimal order to watch the Raildex anime.
 <!-- more -->
 
-**Jacen Sekai** — 5/11/2020 8:25 PM
+**Jacen Sekai** — 5/11/2020 8:25 PM  
 Okay so  
 Raildex is a common nickname for the To Aru franchise, which has a bunch of series and spinoffs and spinoffs of spinoffs  
 but the core two entries are Index and Railgun  
@@ -26,7 +26,7 @@ but as someone who accidentally watched Railgun first, it's not a terrible exper
 
 [...]
 
-**Jacen Sekai** — 5/11/2020 8:36 PM
+**Jacen Sekai** — 5/11/2020 8:36 PM  
 tbh  
 watch order is probably the biggest source of drama in the Raildex fandom  
 There are people who think you should watch in broadcast order, because that gives you the best worldbuilding and because it's what the creators intended  
