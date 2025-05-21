@@ -34,16 +34,20 @@ tags: ["posts"]
 
     <main>
       <div class="container mb-4">
-        {% if tags contains "blog" %}
-        <p class="display-6 text-center">Jacen's Blog</p>
-        {% endif %}
-        {% if tags contains "rant" %}
-        <p class="display-6 text-center">Jacen's Rants</p>
-        {% endif %}
-        <h1 class="text-center">{{ title }}</h1>
-        <p class="text-center lead">{{ date | toLocalTime }}</p>
-        <hr />
-        {{ content }}
+        <article class="h-entry">
+          {% if tags contains "blog" %}
+          <p class="display-6 text-center">Jacen's Blog</p>
+          {% endif %}
+          {% if tags contains "rant" %}
+          <p class="display-6 text-center">Jacen's Rants</p>
+          {% endif %}
+          <h1 class="text-center p-name">{{ title }}</h1>
+          <p class="text-center lead">{{ date | toLocalTime }}</p>
+          <hr />
+          <div class="e-content">
+            {{ content }}
+          </div>
+        </article>
       </div>
     </main>
     <div class="container">

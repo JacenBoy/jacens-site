@@ -34,19 +34,21 @@ permalink: "ships/{{ franchise | slugify }}/{{ title | slugify }}/"
     {% include "navbar.html" %}
 
     <main>
-      <div class="container mb-4">
+      <div class="container mb-4 h-entry">
         <p class="display-6 text-center">Shipping Discussion</p>
-        <h1 class="text-center">{{ franchise }} - {{ title }}</h1>
+        <h1 class="text-center p-name">{{ franchise }} - {{ title }}</h1>
         <hr />
-        {% if problematic %}
-        <div class="alert alert-danger" role="alert" data-bs-theme="dark">
-          Fiction is fiction, and reality is reality. I do not condone any illegal, immoral, or unethical activities. However, I also ask that you acknowledge that most well-adjusted people understand the difference between fiction and reality and should be permitted to enjoy whatever content they like as long as they understand why others might find it problematic.
-        </div>
-        {% endif %}
+        <div class="e-content">
+          {% if problematic %}
+          <div class="alert alert-danger" role="alert" data-bs-theme="dark">
+            Fiction is fiction, and reality is reality. I do not condone any illegal, immoral, or unethical activities. However, I also ask that you acknowledge that most well-adjusted people understand the difference between fiction and reality and should be permitted to enjoy whatever content they like as long as they understand why others might find it problematic.
+          </div>
+          {% endif %}
 
-        <div class="container-fluid d-flex align-items-center justify-content-center mb-4">
-          <div class="w-75 fs-4">
-            {{ content }}
+          <div class="container-fluid d-flex align-items-center justify-content-center mb-4">
+            <div class="w-75 fs-4">
+              {{ content }}
+            </div>
           </div>
         </div>
       </div>
