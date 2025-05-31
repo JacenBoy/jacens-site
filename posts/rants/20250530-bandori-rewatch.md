@@ -241,7 +241,7 @@ Saya's reason for quitting CHiSPA has nothing to do with the need to spend more 
 
 Kasumi isn't pushing out of selfishness; she's pushing because she's seen Saya's desire to play in a band again. Saya isn't declining out of obligation to her family; she's declining out of obligation to her friends.
 
-> "I ruined our concert. Made the others walk on eggshells around me!"
+> "I ruined our concert. Made the others walk on eggshells around me!"  
 > "Does that sound like fun to you?!"
 
 > "Someone will end up suffering for my sake... That's why I quit before. I can't do it... Not anymore..."
@@ -278,7 +278,7 @@ Natsuki's not really the type to hold a grudge, especially when she knows Saya h
 
 CHiSPA's new drummer offers her drumsticks to Saya, and she arrives just in time to perform "STAR BEAT! \~Hoshi no Kodou\~"
 
-> "Despite all the dreams I have counted, I still pretended not to hear it"
+> "Despite all the dreams I have counted, I still pretended not to hear it"  
 > "The truth is I've always been aware of it, the faint voice within my memories, I can hear it"
 
 Fitting lyrics for a certain someone who gave up on her dreams and is now deciding to chase them again.
@@ -369,8 +369,8 @@ Remember Oddie? Tae is the proud parent of 20 rabbits. We also are introduced to
 
 The time comes, and everyone is naturally quite nervous for the audition. For the final time, they attempt to play "Mae e Susume!"
 
-> "That's why no matter how difficult it is now"
-> "Even if nothing goes well"
+> "That's why no matter how difficult it is now"  
+> "Even if nothing goes well"  
 > "Don’t forget our experiences, 'keep on moving!'"
 
 After the performance, Arisa breaks down, lamenting her mistakes despite all the hard work and practice tim they put in. Despite everything, Kasumi maintains her declaration:
