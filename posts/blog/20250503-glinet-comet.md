@@ -45,3 +45,5 @@ One missing feature that I found to be very obnoxious was the scroll speed. By d
 Effectively, this is a more portable PiKVM V4 Mini for almost half the cost, starting at $89. I'm impressed with the look and feel of both the hardware and the software. The Comet is likely to be a new staple in my backpack for the times when an IP KVM would come in handy.
 
 If you decide you want to purchase the Comet or any other GL.iNet products, I do have a [referral link](http://rwrd.io/nma4vqw?c) that you can use to get a $10 discount, which also gives me a small kickback.
+
+**Update 1:** As of GLKVM version 1.3.0, released on June 10th, 2025, [the scroll rate option has been added,](https://github.com/gl-inet/glkvm/issues/7#issuecomment-2958616039) as well as a handful of other improvements. Hopefully GL.iNet continues to iterate on and improve the software, although it feels like it's in a good state for basic operation.
