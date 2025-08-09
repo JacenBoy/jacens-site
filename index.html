@@ -3,16 +3,12 @@ layout: main.html
 title: Home
 ---
 
-<h1 class="text-center">Jacen Sekai</h1>
-<p class="lead text-center">Welcome to my website</p>
-<hr />
-
 {%- assign posts = collections.posts | reverse | slice:0, 10 -%}
 
 <div class="container-fluid">
   <div class="row mb-5">
     <div class="col-lg-8">
-      <h2 class="mb-3">Latest Posts</h2>
+      <h1 class="mb-5 text-center">Latest Posts</h2>
       {%- for post in posts -%}
       <div class="card mb-3" data-bs-theme="dark">
         <div class="card-body">
@@ -28,7 +24,7 @@ title: Home
     <div class="col-lg-4">
       <div class="card mb-3 h-card" data-bs-theme="dark">
         <div class="card-body">
-          <h2 class="h4 card-title"><a class="post-title-link p-name u-url" href="https://jacen.moe" rel="me"><img class="profile u-photo" src="/img/you.png" alt="" /> Jacen Sekai</a></h2>
+          <h1 class="h4 card-title"><a class="post-title-link p-name u-url" href="https://jacen.moe" rel="me"><img class="profile u-photo" src="/img/you.png" alt="" /> Jacen Sekai</a></h2>
           <p class="card-text p-note">IT wizard, wannabe coder, dub connoisseur.</p>
         </div>
       </div>
