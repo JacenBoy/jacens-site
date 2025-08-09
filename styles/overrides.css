@@ -95,9 +95,13 @@ pre code {
 
 img.profile {
   max-width: 80px;
-  max-height: 80px;;
+  max-height: 80px;
 }
 
 .card-title, .card-subtitle {
   margin-top: 0;
+}
+
+.social-icon {
+  width: 80px;
 }

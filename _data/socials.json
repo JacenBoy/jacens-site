@@ -1,38 +1,47 @@
 [
   {
     "name": "Mastodon",
-    "url": "https://mastodon.jacen.moe/@jacenboy"
+    "url": "https://mastodon.jacen.moe/@jacenboy",
+    "icon": "/img/socials/mastodon.png"
   },
   {
     "name": "Bluesky",
-    "url": "https://bsky.app/profile/jacensekai.bsky.social"
+    "url": "https://bsky.app/profile/jacensekai.bsky.social",
+    "icon": "/img/socials/bluesky.png"
   },
   {
     "name": "GitHub",
-    "url": "https://github.com/JacenBoy"
+    "url": "https://github.com/JacenBoy",
+    "icon": "/img/socials/github.png"
   },
   {
     "name": "PeerTube",
-    "url": "https://video.jacen.moe/c/jacenboy"
+    "url": "https://video.jacen.moe/c/jacenboy",
+    "icon": "/img/socials/peertube.png"
+  },
+  {
+    "name": "YouTube",
+    "url": "https://www.youtube.com/@jacensekai",
+    "icon": "/img/socials/youtube.png"
   },
   {
     "name": "Owncast",
-    "url": "https://live.jacen.moe"
+    "url": "https://live.jacen.moe",
+    "icon": "/img/socials/owncast.png"
   },
   {
-    "name": "Libre.fm",
-    "url": "https://libre.fm/user/JacenSekai"
+    "name": "Twitch",
+    "url": "https://twitch.tv/jacensekai",
+    "icon": "/img/socials/twitch.png"
   },
   {
     "name": "Discord",
-    "url": "https://discord.gg/4Zt9da3"
+    "url": "https://discord.gg/4Zt9da3",
+    "icon": "/img/socials/discord.png"
   },
   {
     "name": "Revolt",
-    "url": "https://rvlt.gg/JhwQcaf9"
-  },
-  {
-    "name": "Nerimity",
-    "url": "https://nerimity.com/i/tfNcC"
+    "url": "https://rvlt.gg/JhwQcaf9",
+    "icon": "/img/socials/revolt.png"
   }
 ]

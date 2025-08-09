@@ -3,12 +3,15 @@ layout: main.html
 title: Socials
 ---
 
-<h1 class="text-center">My Socials</h1>
-<p class="lead text-center">Where you can find me</p>
-<hr />
+<h1 class="mb-5 text-center">My Socials</h1>
 
-<div class="list-group mt-4 mb-4" data-bs-theme="dark">
+<div class="mt-5 row">
   {%- for social in socials -%}
-  <a href="{{ social.url }}" class="list-group-item list-group-item-action fs-2" target="_blank">{{ social.name }}</a>
+  <div class="col-lg-4 text-center" style="padding-bottom: 1.5rem;">
+    <a href="{{ social.url }}" style="text-decoration: none;" target="_blank">
+      <img class="img-fluid social-icon" src="{{ social.icon }}" alt="{{ social.name }}" />
+      <p class="h4" style="margin-top: 1rem">{{ social.name }}</p>
+    </a>
+  </div>
   {%- endfor -%}
 </div>
