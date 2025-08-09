@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Ko-fi",
+    "type": "link",
+    "data": "https://ko-fi.com/jacensekai",
+    "icon": "/img/donations/ko-fi.png"
+  },
+  {
+    "name": "Liberapay",
+    "type": "link",
+    "data": "https://liberapay.com/jacenboy/",
+    "icon": "/img/donations/liberapay.png"
+  }
+]
