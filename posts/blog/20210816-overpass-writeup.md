@@ -2,6 +2,7 @@
 layout: blog.html
 title: "TryHackMe - Overpass Writeup"
 date: 2021-08-16
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/lL4gVwyKT71X.png"
 ---
 
 By now, everyone has done a writeup of the [Overpass](https://tryhackme.com/room/overpass) room on TryHackMe, but I've decided I want to try my hand at it anyway. Hopefully someone will find it helpful.

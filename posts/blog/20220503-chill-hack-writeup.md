@@ -2,6 +2,7 @@
 layout: blog.html
 title: "TryHackMe - Chill Hack"
 date: 2022-05-03
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/IUbwjvbt2gv8.png"
 ---
 
 [Chill Hack](https://tryhackme.com/room/chillhack) is an easy-ranked box. Unfortunately, it wasn't the most fun box to do, with a handful of unrealistic and unintuitive stops along the killchain.

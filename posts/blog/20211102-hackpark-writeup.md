@@ -2,6 +2,7 @@
 layout: blog.html
 title: "TryHackMe - HackPark Writeup"
 date: 2021-11-02
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/n1yPsnqz5pPo.png"
 ---
 
 [HackPark](https://tryhackme.com/room/hackpark) is a Medium difficulty room, although it guides you along fairly well for the initial foothold, and it's pretty easy to root if you do proper basic enumeration.

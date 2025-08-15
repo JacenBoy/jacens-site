@@ -2,6 +2,7 @@
 layout: blog.html
 title: "TryHackMe - JPGChat Writeup"
 date: 2021-08-17
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/fQ87S9JgLM2u.png"
 ---
 
 [JPGChat](https://tryhackme.com/room/jpgchat) was a very quick and easy box, but it does have a simple OSINT step that was a bit of fun to follow.
