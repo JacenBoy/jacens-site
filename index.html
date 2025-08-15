@@ -11,6 +11,9 @@ title: Home
       <h1 class="mb-5 text-center">Latest Posts</h2>
       {%- for post in posts -%}
       <div class="card mb-3" data-bs-theme="dark">
+        {% if post.data.thumbnail %}
+        <a href="{{ post.url }}" class="header-image-link"><img class="card-img-top" src="{{ post.data.thumbnail }}" alt="{{ title }}" /></a>
+        {% endif %}
         <div class="card-body">
           <h3 class="card-title"><a href="{{ post.url }}" class="post-title-link">{{ post.data.title }}</a></h3>
           <h4 class="card-subtitle mb-2 text-body-secondary h5">{{ post.data.date | toLocalTime }} <span class="badge bg-secondary text-dark">{{ post.data.tags | postType }}</span></h4>

@@ -10,13 +10,23 @@ tags: ["posts"]
 
     <meta property="og:title" content="{{ title }} | Jacen Sekai" />
     <meta property="og:description" content="{{ page.excerpt | formatExcerpt}}" />
-    <meta property="og:image" content="https://jacen.moe/img/you.png" />
     <meta property="og:url" content="https://jacen.moe{{ page.url }}" />
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Jacen Sekai" />
-    <meta property="twitter:card" content="summary" />
     <meta property="twitter:site" content="@jacenboy" />
+    <meta name="twitter:title" content="{{ title }} | Jacen Sekai">
+    <meta name="twitter:description" content="{{ page.excerpt | formatExcerpt}}">
+    
+
+    {% if thumbnail %}
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="og:image" content="{{ thumbnail }}" />
+    <meta property="twitter:image" content="{{ thumbnail }}" />
+    {% else %}
+    <meta property="twitter:card" content="summary" />
+    <meta property="og:image" content="https://jacen.moe/img/you.png" />
     <meta property="twitter:image" content="https://jacen.moe/img/you.png" />
+    {% endif %}
 
     <link rel="me" href="https://mastodon.jacen.moe/@jacenboy" />
     <meta name="fediverse:creator" content="@jacenboy@mastodon.jacen.moe">
@@ -43,7 +53,11 @@ tags: ["posts"]
           {% endif %}
           <h1 class="text-center p-name">{{ title }}</h1>
           <p class="text-center lead">{{ date | toLocalTime }}</p>
-          <hr />
+          {% if thumbnail %}
+          <div class="text-center mb-5">
+            <img class="img-fluid" src="{{ thumbnail }}" alt="{{ title }}" />
+          </div>
+          {% endif %}
           <div class="e-content">
             {{ content }}
           </div>

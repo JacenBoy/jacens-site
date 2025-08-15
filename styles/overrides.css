@@ -105,3 +105,11 @@ img.profile {
 .social-icon {
   width: 80px;
 }
+
+.header-image-link img {
+  object-fit: cover;
+}
+
+.header-image-link:hover {
+  opacity: 1;
+}

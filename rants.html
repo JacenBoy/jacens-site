@@ -14,6 +14,9 @@ pagination:
   <a class="u-url" href="/rants"></a>
   {%- for post in posts -%}
   <div class="card mb-5 h-entry" data-bs-theme="dark">
+    {% if post.data.thumbnail %}
+    <a href="{{ post.url }}" class="header-image-link"><img class="card-img-top" src="{{ post.data.thumbnail }}" alt="{{ title }}" /></a>
+    {% endif %}
     <div class="card-body">
       <h2 class="card-title"><a href="{{ post.url }}" class="post-title-link u-url p-name">{{ post.data.title }}</a></h2>
       <h3 class="card-subtitle mb-2 text-body-secondary h5">{{ post.data.date | toLocalTime }}</h3>

@@ -3,6 +3,9 @@
 layout: <% postType %>.html
 title: ""
 date: <% tp.date.now() %>
+<%* if (postType != "ship") { -%>
+thumbnail: ""
+<%* } -%>
 <%* if (postType == "ship") { -%>
 franchise: ""
 problematic: false
