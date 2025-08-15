@@ -24,7 +24,7 @@ excludeFromCollections: true
     <updated>{{ post.date | toFeedTime }}</updated>
     <id>{{ absolutePostUrl }}</id>
     <category term="{{ post.data.tags | postType }}" />
-    <content type="html">{{ post.data.page.excerpt | stripNewlines | formatExcerpt }}</content>
+    <content src="{{ absolutePostUrl }}"></content>
     <summary type="html">{{ post.data.page.excerpt | stripNewlines | formatExcerpt }}</summary>
   </entry>
   {%- endfor %}
