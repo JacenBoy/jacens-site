@@ -2,6 +2,7 @@
 layout: blog.html
 title: IT Pro Tip - Don't Deny Permissions
 date: 2025-07-12
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/RC69hXfSoAOr.png"
 ---
 You're setting up a new shared folder on a Windows file server, probably one that holds sensitive information. You want to be sure that no one unauthorized can access the files, so in the Security tab, you set a new permission entry to deny access to the "Everyone" object.
 

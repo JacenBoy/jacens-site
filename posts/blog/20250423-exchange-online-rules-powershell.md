@@ -2,6 +2,7 @@
 layout: blog.html
 title: IT Pro Tip - Viewing Outlook Rules Using Powershell
 date: 2025-04-23
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/z79AmvJPn1vx.png"
 ---
 
 With people continuing to insist on using poor and easily guessable passwords, hacked emails are something I deal with occasionally.

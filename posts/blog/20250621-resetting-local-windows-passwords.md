@@ -2,6 +2,7 @@
 layout: blog.html
 title: IT Pro Tip - Recovering Local Admin Access
 date: 2025-06-21
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/ylSmTswhk4UN.png"
 ---
 Even in a domain environment, once in a while things go wrong and you need a local administrator account. Maybe you're taking over for an unhelpful rival IT department, or maybe you've had an employee who didn't document things correctly. Regardless of the reason, sometimes you just don't have access to everything you need to do your job.
 <!-- more -->

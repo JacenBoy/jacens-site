@@ -2,6 +2,7 @@
 layout: blog.html
 title: Reviewing the Gamer Supps Experience
 date: 2025-05-02
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/kH8dhfA3UEbi.png"
 ---
 A Twitch streamer I watch got an affiliate code with Gamer Supps recently and has begun shilling it pretty hard. I like trying new foods and drinks, and I'll try almost anything at least once. Because they have a free sample option, I decided to use his code to get a couple of free packs to see just what it tasted like.
 <!-- more -->

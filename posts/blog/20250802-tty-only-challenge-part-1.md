@@ -2,6 +2,7 @@
 layout: blog.html
 title: Can You Use Linux Without Leaving The Command Line? - The TTY-Only Challenge
 date: 2025-08-02
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/IqDZmQVQMqGl.png"
 ---
 One of the most parroted advantages of Linux is its customizability. With plenty of distributions, desktop environments, window managers, and many combinations thereof, there are so many ways to tune your graphical environment exactly the way you want it.
 

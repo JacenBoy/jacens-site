@@ -2,6 +2,7 @@
 layout: blog.html
 title: The GL.iNet Comet - A Review
 date: 2025-05-03
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/8JRKnwc76egD.png"
 ---
 A while back, I purchased GL.iNet's AC1300 router for a project that never ended up materializing. Despite that, it is still a staple in my backpack, and it put GL.iNet on my radar. So, when I received an email about the [GL-RM1 Comet remote KVM](https://www.gl-inet.com/products/gl-rm1/), my interest was definitely piqued.
 <!-- more -->

@@ -2,6 +2,7 @@
 layout: blog.html
 title: The Whole-Home AdGuard Proxy
 date: 2025-07-14
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/HZ8hb6JjjRAt.png"
 ---
 [I've talked about adblockers in the past](https://jacen.moe/blog/20240609-pi-hole-the-ad-blocker-that-falls-short/), particularly my dislike of Pi-hole and preference toward AdGuard. However, AdGuard comes with a number of hangups, namely that you need a license for every device in your home that you want to protect. But what if you could protect your entire home from a single server? Is it doable?
 <!-- more -->

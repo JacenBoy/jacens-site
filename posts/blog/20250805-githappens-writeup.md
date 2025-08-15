@@ -2,6 +2,7 @@
 layout: blog.html
 title: TryHackMe - Git Happens
 date: 2025-08-05
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/iE0ESFLASefF.png"
 ---
 [Git Happens](https://tryhackme.com/room/githappens) is an easy-ranked box on TryHackMe. It's extremely short and simple, but it serves as a good reminder of the dangers of using Git if you don't really know what you're doing.
 <!-- more -->
