@@ -25,6 +25,7 @@ excludeFromCollections: true
     <id>{{ absolutePostUrl }}</id>
     <category term="{{ post.data.tags | postType }}" />
     <content type="html">{{ post.data.page.excerpt | stripNewlines | formatExcerpt }}</content>
+    <summary type="html">{{ post.data.page.excerpt | stripNewlines | formatExcerpt }}</summary>
   </entry>
   {%- endfor %}
 </feed>
