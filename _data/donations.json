@@ -10,5 +10,17 @@
     "type": "link",
     "data": "https://liberapay.com/jacenboy/",
     "icon": "/img/donations/liberapay.png"
+  },
+  {
+    "name": "Bitcoin",
+    "type": "link",
+    "data": "bitcoin:bc1qea529rw5g3jhjtzx3ty2kp8q9tdwtsecnze5zz?message=Donation+to+Jacen+Sekai",
+    "icon": "/img/donations/bitcoin.png"
+  },
+  {
+    "name": "Monero",
+    "type": "link",
+    "data": "monero:83KTbKBaCMvD73dQZdTzQQ3LdhpURoH7MgZRKgs1hRHy2VuMsoHD255NV2jwnVkHMwiaD2hS9WbJyVu9KU4ZtirwDFYQsRB?message=Donation+to+Jacen+Sekai",
+    "icon": "/img/donations/monero.png"
   }
 ]
