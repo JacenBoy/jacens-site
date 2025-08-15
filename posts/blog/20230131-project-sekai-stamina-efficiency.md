@@ -2,6 +2,7 @@
 layout: blog.html
 title: "Project Sekai Stamina Efficiency"
 date: 2023-01-31
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/h5PY5hSDFRvp.png"
 ---
 
 [Project Sekai, or Hatsune Miku: Colorful Stage as it's called in English](https://www.colorfulstage.com), is one of the plethora of rhythm games chasing after the success of franchises such as [Love Live!](https://lovelive-sif-global.bushimo.jp) and [BanG Dream!](https://bang-dream-gbp-en.bushiroad.com), and is also one of the few to gain that same success. Like those other games, it features an event system, where players earn points for playing the game and compete on a leaderboard for the top spot. Unsurprisingly, it's attracted a number of diehard players who compete for those top spots and the bragging rights that come with it. Like most diehard gamers, playing the game as efficiently as possible is important to those players and their quest to the the very best. So, in the interest of hyperfixation, let's take a look at one of the resources those players use as they climb the ladder and aim for the top.
