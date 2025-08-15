@@ -2,6 +2,7 @@
 layout: blog.html
 title: IT Pro Tip - Robocopy
 date: 2025-03-24
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/MOHUfjKWizWW.png"
 ---
 I run into many situations where I need to copy numerous files, particularly when trying to move a user profile from one computer to another. A mistake I see even experienced IT techs make is using the standard Windows "drag-and-drop" to do these copy tasks. Doing things this way can take hours. There are also tools like [Transwiz](https://www.forensit.com/move-computer.html) that can handle this for you, but I've found them to be less reliable than I would like.
 

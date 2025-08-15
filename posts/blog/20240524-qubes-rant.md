@@ -2,6 +2,7 @@
 layout: blog.html
 title: "Why I Dropped Qubes OS After Four Hours"
 date: 2024-05-24
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/YDPbI1t5581h.png"
 ---
 
 Qubes is a project that has always intrigued me. Although I don't have a threat model that necessitates the level of compartmentalization it provides, the idea of organizing my computer usage into containers is appealing from an organizational standpoint.

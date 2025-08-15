@@ -2,6 +2,7 @@
 layout: blog.html
 title: Migrating from WriteFreely to 11ty
 date: 2025-01-08
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/dRAVOBuw37Do.png"
 ---
 
 For someone who doesn't blog regularly, I change blog platforms a lot. I've used WordPress, Jekyll, WriteFreely, and now 11ty. We'll see how long this lasts for, but let me dive into why I made the change and how I have everything set up.

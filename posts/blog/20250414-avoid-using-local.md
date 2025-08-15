@@ -2,6 +2,7 @@
 layout: blog.html
 title: IT Pro Tip - Don't Use .local
 date: 2025-04-14
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/YGf3GvpDLgp8.png"
 ---
 
 It's a tale as old as time. You're setting up a new Active Directory domain environment for the Example Corporation. As part of the setup, you're asked to choose the domain you want AD to use. Mindlessly, you enter "example.local".

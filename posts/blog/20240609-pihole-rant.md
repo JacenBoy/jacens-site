@@ -2,6 +2,7 @@
 layout: blog.html
 title: "Pi-hole: The Ad Blocker That Falls Short"
 date: 2024-06-09
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/gHrTHX3mL2gw.png"
 ---
 
 With [the sunsetting of Manifest V2 well underway](https://blog.chromium.org/2024/05/manifest-v2-phase-out-begins.html), ad block users must decide between switching to a Manifest V2 supported browser like Firefox, or finding an alternative ad blocker that doesn't rely on browser extensions. DNS-based solutions like [Pi-hole](https://pi-hole.net) are among the more popular alternatives I've seen recommended.

@@ -2,6 +2,7 @@
 layout: blog.html
 title: The Framework 16 - A 1-Year Review
 date: 2025-02-03
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/bH8NI6AFfYyl.png"
 ---
 About a year ago, I received my Framework 16 laptop. While I did [a post reviewing my first impressions](https://jacen.moe/blog/20240221-jacens-framework-16-review/), it's difficult to properly judge a device after only a couple of weeks. I decided I wanted to do a follow-up after daily driving it for longer.
 

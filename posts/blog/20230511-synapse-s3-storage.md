@@ -2,6 +2,7 @@
 layout: blog.html
 title: "S3 Media Storage For Matrix Synapse"
 date: 2023-05-11
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/yWekgC6zxKJw.png"
 ---
 
 I noticed recently on my Matrix Synapse homeserver that my storage was starting to get a little bit full. I hadn't considered it in the past since the server sees very little use, but I decided the best way to solve the issue would be to move my media storage onto an S3-compatible service.

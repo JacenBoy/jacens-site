@@ -2,6 +2,7 @@
 layout: blog.html
 title: "Jacen's Framework 16 Review"
 date: 2024-02-22
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/I95rSdBchpb6.png"
 ---
 
 A few years ago when I first heard of [Framework](https://frame.work) and their 13" laptop, there were a couple notable dealbreakers for me. First, I had fairly recently purchased a laptop, and it was still running well enough that I wasn't in the market for a replacement. Second, it was missing two features that I really need in my laptops: a dedicated GPU and a number pad.
