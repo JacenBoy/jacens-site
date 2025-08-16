@@ -2,6 +2,7 @@
 layout: rant.html
 title: On Gamers Nexus - The Steve Burke Rant
 date: 2025-01-18
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/ozneUwOI4aGS.png"
 ---
 I'm kinda over Gamers Nexus and their particular brand of journalism, so I feel like I need to say something, even if no one is going to read it.
 <!-- more -->

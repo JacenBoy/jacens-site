@@ -2,6 +2,7 @@
 layout: rant.html
 title: How Good Was Classic Bandori Really? - BanG Dream! Season 1 Rewatch Reaction
 date: 2025-05-30
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/W2myYW09rUlG.png"
 ---
 
 {% spoiler %}Beware of "BanG Dream!" spoilers{% endspoiler %}

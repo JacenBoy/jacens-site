@@ -2,6 +2,7 @@
 layout: rant.html
 title: "Jacen's MyGO Rewatch Reaction"
 date: 2024-12-06
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/BzAUbyguMBj8.png"
 ---
 
 {% spoiler %}Beware of "BanG Dream! It's MyGO!!!!!" spoilers{% endspoiler %}

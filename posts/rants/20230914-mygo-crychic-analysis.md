@@ -2,6 +2,7 @@
 layout: rant.html
 title: "MyGO!!!!! and CRYCHIC - Two bands made up of terrible people"
 date: 2023-09-14
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/VGIvg76i2s9q.png"
 ---
 
 {% spoiler %}Beware of "BanG Dream! It's MyGO!!!!!" spoilers{% endspoiler %}

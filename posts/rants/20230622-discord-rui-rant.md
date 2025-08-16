@@ -2,6 +2,7 @@
 layout: rant.html
 title: "From Discord - The Rui Kamishiro rant"
 date: 2023-06-22
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/mKe02TEQ2rN5.png"
 ---
 
 An excerpt from Discord regarding a Reddit post I saw.

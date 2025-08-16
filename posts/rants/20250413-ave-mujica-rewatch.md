@@ -2,6 +2,7 @@
 layout: rant.html
 title: Jacen's Ave Mujica Rewatch Reaction
 date: 2025-04-13
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/AeWtBRhV44Ka.png"
 ---
 
 {% spoiler %}Beware of "BanG Dream! It's MyGO!!!!!" and "Ave Mujica - The Die is Cast -" spoilers{% endspoiler %}

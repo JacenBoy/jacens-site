@@ -2,6 +2,7 @@
 layout: rant.html
 title: Why I Haven't Calculated The Most Time-Efficient Song in Project Sekai
 date: 2025-06-20
+thumbnail: "https://jacen-safe.s3.us-west-004.backblazeb2.com/dy2NzLDYAO9M.png"
 ---
 Back when I did [my blog post discussing optimal energy use](https://jacen.moe/blog/20230131-project-sekai-stamina-efficiency/), I teased the possibility of going over a proper calculation of the most time-efficient song in the game. I never ended up doing that post because I wasn't able to find the information I wanted to do it properly. This is both an explanation and a call for help if anyone has any information that I can't find.
 <!-- more -->
