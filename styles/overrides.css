@@ -113,3 +113,7 @@ img.profile {
 .header-image-link:hover {
   opacity: 1;
 }
+
+.alert-heading {
+  margin-top: 0;
+}
