@@ -1,7 +1,8 @@
 ---
 layout: rant.html
-title: "From Discord - Love Live! School Idol Festival 2 Impressions"
+title: From Discord - Love Live! School Idol Festival 2 Impressions
 date: 2024-02-01
+thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/uSY7auWIeztV.png
 ---
 
 An excerpt from Discord regarding my initial thoughts on School Idol Festival 2.
