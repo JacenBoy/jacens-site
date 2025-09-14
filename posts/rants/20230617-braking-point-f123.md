@@ -1,7 +1,8 @@
 ---
 layout: rant.html
-title: "How not to write a sympathetic villain arc, feat. F1 23"
+title: How not to write a sympathetic villain arc, feat. F1 23
 date: 2023-06-17
+thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/52uM656qLoiE.png
 ---
 
 {% spoiler %}Beware of "Braking Point" spoilers{% endspoiler %}
