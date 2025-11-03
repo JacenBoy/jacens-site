@@ -2,6 +2,7 @@
 layout: rant.html
 title: My Least Favorite Anime - A Hanebado Rant
 date: 2025-03-22
+thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/bUDE3yOxytWp.png
 ---
 
 {% spoiler %}Beware of "Hanebado" spoilers{% endspoiler %}
