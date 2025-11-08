@@ -71,7 +71,7 @@ module.exports = async function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("toFeedTime", (date) => {
-		return DateTime.fromJSDate(date, {zone: "UTC"}).plus({ hours: 4 }).toISO();
+		return DateTime.fromJSDate(date, {zone: "UTC"}).plus({ hours: 5 }).toISO();
 	});
 
 	eleventyConfig.addFilter("toUTC", (date) => {
