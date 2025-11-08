@@ -12,7 +12,7 @@ title: Home
       {%- for post in posts -%}
       <div class="card mb-3" data-bs-theme="dark">
         {% if post.data.thumbnail %}
-        <a href="{{ post.url }}" class="header-image-link"><img class="card-img-top" src="{{ post.data.thumbnail }}" alt="{{ title }}" /></a>
+        <a href="{{ post.url }}" class="header-image-link"><img class="card-img-top" src="{{ post.data.thumbnail }}" alt="{{ post.data.title }}" /></a>
         {% endif %}
         <div class="card-body">
           <h3 class="card-title"><a href="{{ post.url }}" class="post-title-link">{{ post.data.title }}</a></h3>
