@@ -2,6 +2,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const rssFeed = require("@11ty/eleventy-plugin-rss");
 const embeds = require("eleventy-plugin-embed-everything");
 const markdownIt = require("markdown-it");
+const mdIterator = require('markdown-it-for-inline');
 const {stripHtml} = require("string-strip-html");
 const {encode} = require("html-entities");
 const {DateTime} = require("luxon");
@@ -23,6 +24,8 @@ module.exports = async function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("favicon.ico");
 	eleventyConfig.addPassthroughCopy("robots.txt");
 
+	eleventyConfig.setLibrary("md", md);
+
 	eleventyConfig.amendLibrary("md", (mdLib) => {
 		mdLib.renderer.rules.table_open = function(tokens, idx) {
 			return `<table class="table table-striped" data-bs-theme="dark">`;
@@ -30,6 +33,14 @@ module.exports = async function(eleventyConfig) {
 		mdLib.renderer.rules.blockquote_open = function(tokens, idx) {
 			return `<blockquote class="blockquote">`;
 		};
+
+		mdLib.use(mdIterator, "url_new_win", "link_open", function (tokens, idx) {
+			const [attrName, href] = tokens[idx].attrs.find(attr => attr[0] === 'href');
+			if (href && (!href.includes('jacen.moe') && !href.startsWith('/') && !href.startsWith('#'))) {
+				tokens[idx].attrPush([ 'target', '_blank' ]);
+				tokens[idx].attrPush([ 'rel', 'noopener noreferrer' ]);
+    	}
+		});
 	});
 
   eleventyConfig.setFrontMatterParsingOptions({

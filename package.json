@@ -18,6 +18,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "eleventy-plugin-embed-everything": "^1.19.0",
     "html-entities": "^2.5.2",
+    "markdown-it-for-inline": "^2.0.1",
     "string-strip-html": "^8.5.0"
   }
 }
