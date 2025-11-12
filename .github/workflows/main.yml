@@ -29,6 +29,7 @@ jobs:
       run: |
         npm i
         npm run build
+        npm run index
     # When the dist_dir is ready, deploy it to neocities
     # Here we deploy the folder named `public`
     - name: Deploy to neocities

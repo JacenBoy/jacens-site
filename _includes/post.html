@@ -51,14 +51,14 @@ tags: ["posts"]
           {% if tags contains "rant" %}
           <p class="display-6 text-center">Jacen's Rants</p>
           {% endif %}
-          <h1 class="text-center p-name">{{ title }}</h1>
+          <h1 class="text-center p-name" data-pagefind-body>{{ title }}</h1>
           <p class="text-center lead">{{ date | toLocalTime }}</p>
           {% if thumbnail %}
           <div class="text-center mb-5">
             <img class="img-fluid" src="{{ thumbnail }}" alt="{{ title }}" />
           </div>
           {% endif %}
-          <div class="e-content">
+          <div class="e-content" data-pagefind-body>
             {{ content }}
           </div>
         </article>
