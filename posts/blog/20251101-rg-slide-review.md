@@ -4,7 +4,9 @@ title: Return of the PSP Go? - Anbernic RG Slide Review
 date: 2025-11-01
 thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/Tl5CporAf8NP.png
 ---
-I've mentioned before my love of handheld computers. It's something of a problem for me. So, when I saw the [Anbernic RG Slide](https://www.aliexpress.us/item/3256809664857326.html?gatewayAdapt=glo2usa) come across my news feed, I felt like I needed to give it a test drive. Is this PSP Go lookalike worth the money, or is it doomed to share the fate of its doppelganger?
+*This review contains affiliate links to some of the products mentioned.*
+
+I've mentioned before my love of handheld computers. It's something of a problem for me. So, when I saw the [Anbernic RG Slide](https://anbernic.com/products/rgslide?sca_ref=10054995.TzdVzaHk2u) come across my news feed, I felt like I needed to give it a test drive. Is this PSP Go lookalike worth the money, or is it doomed to share the fate of its doppelganger?
 <!-- more -->
 
 ## The Unboxing
