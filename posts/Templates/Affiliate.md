@@ -1,0 +1,1 @@
+*This review contains affiliate links to some of the products mentioned.*
