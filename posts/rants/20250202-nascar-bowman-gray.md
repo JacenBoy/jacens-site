@@ -2,6 +2,7 @@
 layout: rant.html
 title: NASCAR Race Review - 2025 Clash at Bowman Gray Stadium
 date: 2025-02-02
+thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/a9b6KUhW7Zyv.png
 ---
 I had some concerns about Bowman Gray even before NASCAR announced that the Clash would be moving there for 2025. However, by the time we finished Saturday's heat races, I was 100% sure that NASCAR should never go to Bowman Gray again.
 <!-- more -->
