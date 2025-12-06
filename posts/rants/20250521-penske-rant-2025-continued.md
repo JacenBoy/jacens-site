@@ -2,6 +2,7 @@
 layout: rant.html
 title: The 2025 Penske Rant Continued
 date: 2025-05-21
+thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/AT8kbOhR2qyB.png
 ---
 Once again, I'd love to be writing about literally anything else, but I can't help myself. A lot has happened over the past couple of days, and I'd like to make some clarifications and additions that I didn't put into my [initial post](https://jacen.moe/rants/20250519-the-penske-rant-2025-indy-500-edition/).
 <!-- more -->

@@ -2,6 +2,7 @@
 layout: rant.html
 title: The Penske Rant - 2025 Indy 500 Edition
 date: 2025-05-19
+thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/vB3BtHlnpRKj.png
 ---
 Qualifying for the 2025 Indy 500 was incredible. We had Colton Herta's remarkable recovery after a crash during his qualifying attempt, Marcus Armstrong's own recovery in last chance qualifying after a Saturday practice crash, the climactic shootout between Dale Coyne Racing teammates Rinus VeeKay and Jacob Abel for the 33rd and final spot in the race, and Prema Racing's miraculous pole position thanks to rookie driver Robert Shwartzman.
 

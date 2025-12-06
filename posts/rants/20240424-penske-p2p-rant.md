@@ -1,7 +1,8 @@
 ---
 layout: rant.html
-title: "The Penske Push to Pass Rant"
+title: The Penske Push to Pass Rant
 date: 2024-04-24
+thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/KWSdTkA56nOR.png
 ---
 
 [An absolute bombshell of a story](https://racer.com/2024/04/24/team-penske-hit-with-penalties-over-push-to-pass-use-oward-declared-st-petersburg-winner/) has dropped in the world of IndyCar. For the uninitiated, let me break down what exactly happened.
