@@ -2,6 +2,7 @@
 layout: rant.html
 title: VP Racing SportsCar Challenge Race Review - 2025 Daytona 1 & 2
 date: 2025-01-19
+thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/bXcIHqC7lrWo.png
 ---
 The Rolex 24 is my favorite endurance race of the year, and this is effectively the beginning of the Daytona weekend. The SportCar challenge has always been about learning multi-class racing, and the introduction of the new GT3-spec GTDX class in between the GT4-based GSX and the top-class LMP3s only adds to that goal. Let's take a look at how the first major event in American motorsports shaped up.
 <!-- more -->

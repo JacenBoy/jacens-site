@@ -2,6 +2,7 @@
 layout: rant.html
 title: Mazda MX-5 Cup Race Review - 2025 Daytona 1 & 2
 date: 2025-01-24
+thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/vk8NyVImCDSK.png
 ---
 The MX-5s generally put on the best show on any given race weekend. I think they're a great example of "more horsepower does not mean more better". The racing is extremely close, and the draft is extremely important, meaning last-lap passes and close finishes are the norm. So, what better way to kick off Daytona week than with a race with the MX-5s?
 <!-- more -->
