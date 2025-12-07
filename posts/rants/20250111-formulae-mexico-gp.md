@@ -2,6 +2,7 @@
 layout: rant.html
 title: Formula E Race Review - 2025 Mexico
 date: 2025-01-11
+thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/tDueILnX0BvK.png
 ---
 The first race I've been able to catch in 2025, and the second race of the Formula E seasons, since Brazil took place back in December. Unfortunately, it's once again taking place at Autódromo Hermanos Rodríguez, historically one of the most boring tracks on the Formula E schedule. The only hope is that either the new GEN3 Evo spec improves the racing or that the weather cooperates to give us rain during the race.
 <!-- more -->
