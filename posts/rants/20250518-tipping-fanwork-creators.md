@@ -2,6 +2,7 @@
 layout: rant.html
 title: Why Can't We Pay Fanwork Creators?
 date: 2025-05-18
+thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/syqaICvY31OZ.png
 ---
 I've always wanted to be a writer. My mother was a journalism major, so I've been exposed to writing my entire life. I filled notebooks with my own stories and, eventually, my own fanfiction once I got into Star Wars and Pokémon. While I don't think my dream of being a writer is truly attainable for me, writing stuff on my website is about as close as I'm going to get.
 
