@@ -2,6 +2,7 @@
 layout: rant.html
 title: An Ave Mujica 3 Episode Rule Rant
 date: 2025-01-20
+thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/eNkn9NegducH.png
 ---
 
 {% spoiler %}Beware of "Ave Mujica - The Die is Cast -" spoilers{% endspoiler %}

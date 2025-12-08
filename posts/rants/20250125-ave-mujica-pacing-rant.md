@@ -2,6 +2,7 @@
 layout: rant.html
 title: How Not To Pace An Anime - Ave Mujica Episode 4 Rant
 date: 2025-01-25
+thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/w6oRjl95ldMU.png
 ---
 
 {% spoiler %}Beware of "BanG Dream!" spoilers{% endspoiler %}
