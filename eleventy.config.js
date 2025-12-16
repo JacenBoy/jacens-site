@@ -21,6 +21,7 @@ module.exports = async function(eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy("img");
 	eleventyConfig.addPassthroughCopy("styles");
+	eleventyConfig.addPassthroughCopy("scripts");
 	eleventyConfig.addPassthroughCopy("favicon.ico");
 	eleventyConfig.addPassthroughCopy("robots.txt");
 
