@@ -17,7 +17,7 @@ Once you have the dump file, you'll need a program capable of reading it. My pre
 
 In this case, BlueScreenView flags `ntoskrnl.exe`, the executable for the Windows kernel. The kernel primarily acts as the bridge between hardware and applications, handling memory management, scheduling processes, providing a standardized interface to hardware devices, and plenty of other tasks. It's not uncommon to see `ntoskrnl.exe` in red when looking at a dump in BlueScreenView, but it's usually not actually the cause of the BSoD.
 
-The second flagged item is `rtux64w10.sys`. You'll note that this driver is also flagged in the "Caused By Driver" column. It seems more likely that this is the culprit. The picture of the BSoD also specifically calls out `trux64w10.sys`.
+The second flagged item is `rtux64w10.sys`. You'll note that this driver is also flagged in the "Caused By Driver" column. It seems more likely that this is the culprit. The picture of the BSoD also specifically calls out `rtux64w10.sys`.
 
 ![A Windows BSoD on an HP laptop with the stop code "DRIVER_IRQL_NOT_LESS_OR_EQUAL" and "rtux64w10.sys" showing as failed](https://jacen-safe.s3.us-west-004.backblazeb2.com/1gjUPhrHrIZB.jpg)
 
