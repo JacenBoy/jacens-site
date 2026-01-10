@@ -4,7 +4,7 @@ title: Formula E Race Recap - 2025 São Paulo E-Prix
 date: 2025-12-06
 thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/fYnxwEErHtq7.png
 ---
-Formula E is back with the first race of season 12, the final season of the Gen 3 EVO car. Last year's season opener at São Paulo was a chaotic one, so it remains to be seen if this year's race will be calmer or more of the same.
+Formula E is back with the first race of season 12, the final season of the GEN3 Evo car. Last year's season opener at São Paulo was a chaotic one, so it remains to be seen if this year's race will be calmer or more of the same.
 <!-- more -->
 
 ## Qualifying
