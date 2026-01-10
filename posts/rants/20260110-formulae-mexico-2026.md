@@ -4,7 +4,7 @@ title: Formula E Race Review - 2026 Mexico City E-Prix
 date: 2026-01-10
 thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/2MjPAPmqwHrw.png
 ---
-Season 12 technically started in 2025, but Mexico City still brings us the first race of 2026. It''s also the 150th race that Formula E has run. Mexico City is generally a very lackluster track to me, but with [how good last year's finish was](https://jacen.moe/rants/20250111-formula-e-race-review-2025-mexico/) combined with a minor change to the track layout, it remains to be seen exactly what kind of race this season will give us.
+Season 12 technically started in 2025, but Mexico City still brings us the first race of 2026. It's also the 150th race that Formula E has run. Mexico City is generally a very lackluster track to me, but with [how good last year's finish was](https://jacen.moe/rants/20250111-formula-e-race-review-2025-mexico/) combined with a minor change to the track layout, it remains to be seen exactly what kind of race this season will give us.
 <!-- more -->
 
 There was some buzz online when Formula E posted the track layout for the Mexico City round. In 2023, the track layout was changed to add a chicane in the middle of the back straightaway. This has been removed this year, effectively returning the track back to its 2020 configuration. Throughout practice, the result was a drop in lap times by around six seconds.
