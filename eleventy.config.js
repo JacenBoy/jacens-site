@@ -53,6 +53,22 @@ module.exports = async function(eleventyConfig) {
 		return `<div class="alert alert-warning" data-bs-theme="dark"><p class="h4 alert-heading mb-0"><b>${content}</b></p></div>`;
 	});
 
+	eleventyConfig.addPairedShortcode("chatbox", (content) => {
+		return `<div class="border border-light rounded-3 p-4 chat-container mx-auto">
+			${content}
+		</div>`;
+	});
+
+	eleventyConfig.addPairedShortcode("chatmsg", (content, speaker, role) => {
+		const messageId = `msg-${speaker.toLowerCase().replace(/\s+/g, '-')}-${Math.random().toString(36).substr(2, 9)}`;
+		return `<div class="d-flex justify-content-${role === "rec" ? "start" : "end"} mb-2">
+			<div class="rounded-3 p-3 chat-${role} aria-label="Message from ${speaker}"">
+				<small class="fw-bold" id="${messageId}">${speaker}</small>
+				<div class="mb-1" aria-labelledby="${messageId}">${md.render(content)}</div>
+			</div>
+		</div>`;
+	});
+
 	eleventyConfig.addFilter("markdown", (content) => {
 		if (!content) return "";
 		return md.render(content).replace(/<img .*>/g, "").replace(/{% .* %}(.*){% end.* %}/g, "<b>$1</b>");

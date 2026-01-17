@@ -117,3 +117,18 @@ img.profile {
 .alert-heading {
   margin-top: 0;
 }
+
+.chat-container {
+  max-width: 65vw;
+  background-color: var(--bs-gray-800);
+}
+
+.chat-rec {
+  background-color: var(--bs-gray-900);
+  max-width: 70%;
+}
+
+.chat-snd {
+  background-color: var(--bs-primary-text-emphasis);
+  max-width: 70%;
+}
