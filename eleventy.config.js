@@ -63,6 +63,11 @@ module.exports = async function(eleventyConfig) {
 		return encode(stripHtml(md.render(content).replace(/{% .* %}(.*){% end.* %}/g, "$1")).result);
 	});
 
+	eleventyConfig.addFilter("rssSummary", (content) => {
+		if (!content) return "";
+		return md.render(content).replace(/<p[^>]*>[\s]*<img [^>]*>[\s]*<\/p>/g, "").replace(/{% .* %}(.*){% end.* %}/g, "<b>$1</b>");
+	});
+
 	eleventyConfig.addFilter("postType", (tags) => {
 		try {
 			if (tags.includes("rant")) return "Rant";
