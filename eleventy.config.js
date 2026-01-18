@@ -6,6 +6,7 @@ const mdIterator = require('markdown-it-for-inline');
 const {stripHtml} = require("string-strip-html");
 const {encode} = require("html-entities");
 const {DateTime} = require("luxon");
+const crypto = require("crypto");
 
 module.exports = async function(eleventyConfig) {
 	const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
@@ -60,7 +61,10 @@ module.exports = async function(eleventyConfig) {
 	});
 
 	eleventyConfig.addPairedShortcode("chatmsg", (content, speaker, role) => {
-		const messageId = `msg-${speaker.toLowerCase().replace(/\s+/g, '-')}-${Math.random().toString(36).substr(2, 9)}`;
+		const hash = crypto.createHash("md5").update(`${speaker}-${content}`).digest("hex").substring(0, 8);
+
+		const messageId = `msg-${speaker.toLowerCase().replace(/\s+/g, '-')}-${hash}`;
+
 		return `<div class="d-flex justify-content-${role === "rec" ? "start" : "end"} mb-2">
 			<div class="rounded-3 p-3 chat-${role} aria-label="Message from ${speaker}"">
 				<small class="fw-bold" id="${messageId}">${speaker}</small>
