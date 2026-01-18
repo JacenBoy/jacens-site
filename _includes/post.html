@@ -8,13 +8,13 @@ tags: ["posts"]
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ title }} | Jacen Sekai</title>
 
-    <meta property="og:title" content="{{ title }} | Jacen Sekai" />
+    <meta property="og:title" content="{{ title | escape }} | Jacen Sekai" />
     <meta property="og:description" content="{{ page.excerpt | formatExcerpt}}" />
     <meta property="og:url" content="https://jacen.moe{{ page.url }}" />
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Jacen Sekai" />
     <meta property="twitter:site" content="@jacenboy" />
-    <meta name="twitter:title" content="{{ title }} | Jacen Sekai">
+    <meta name="twitter:title" content="{{ title | escape }} | Jacen Sekai">
     <meta name="twitter:description" content="{{ page.excerpt | formatExcerpt}}">
     
 
