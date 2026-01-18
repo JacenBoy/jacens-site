@@ -17,7 +17,9 @@ Without going too far into detail, while AD is designed to use multi-master repl
 
 By default, `dcpromo` is supposed to handle automatically transferring FSMO roles to another DC on the domain. However, in this case, the transfer failed, preventing me from demoting the problematic DC. FSMO roles can be manually transferred via various GUI tools as well as PowerShell, and this worked perfectly for three of the roles, but the remaining two failed with the same stubborn error: "The current FSMO holder cannot be contacted".
 
-This is actually an issue I've run into before. Last year, I did a livestream setting up an AD test lab to use for some blog posts, and it ended up devolving into a troubleshooting stream as I tried to figure out why I was getting that exact error. Ultimately, it was solved by installing the latest Windows updates. Unfortunately, Windows Update was one of the issues I was running into on this DC, so that wasn't an option for me.
+![Microsoft's "The current FSMO holder cannot be contacted" error message](https://jacen-safe.s3.us-west-004.backblazeb2.com/vKi2dVXfOLc5.png)
+
+This is actually an issue I've run into before. Last year, [I did a livestream setting up an AD test lab](https://youtu.be/_BdfSSL5Y-I) to use for some blog posts, and it ended up devolving into a troubleshooting stream as I tried to figure out why I was getting that exact error. Ultimately, it was solved by installing the latest Windows updates. Unfortunately, Windows Update was one of the issues I was running into on this DC, so that wasn't an option for me.
 
 There is a mechanism to seize the FSMO roles from a permanently offline DC, but that's precisely the problem: the DC needs to be permanently offline. If it were to come back online, it would be unaware of the role changes, meaning you would have two servers trying to perform the same roles, with potentially catastrophic results. I considered just reloading the OS and seizing the roles, since the newly loaded OS wouldn't have any of those FSMO roles assigned, but I would have preferred resolving the core issue rather than trying to clean up a messy DC demotion.
 
