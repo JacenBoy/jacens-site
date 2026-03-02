@@ -451,7 +451,7 @@ Tae's decision is simple.
 
 Arisa's response is less simple, but no less impactful.
 
-> "You know, I don't hate PoPiPa, and being in a band is pretty fun. Who knows what'll happen in the future,, but having a goal together, the five of us..."
+> "You know, I don't hate PoPiPa, and being in a band is pretty fun. Who knows what'll happen in the future, but having a goal together, the five of us..."
 
 > "But I didn't really know how you felt about all this, O-Tae. I thought maybe you'd be okay playing with another band... Now I understand."
 
