@@ -1,7 +1,7 @@
 ---
 layout: rant.html
 title: IMSA Has A BoP Problem
-date: 2026-02-24
+date: 2026-03-24
 thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/TbqNp3b2gGrP.png
 ---
 With their win at Sebring, Porsche Penske Motorsport has completed the "36 Hours of Florida" sweep for the second season in a row, with the no. 7 car leading a 1-2 finish for the team in dominant fashion. Predictably, Penske's strong performance started mutterings among fans about BoP issues within IMSA in particular and endurance racing in general, and I can't say I disagree.
