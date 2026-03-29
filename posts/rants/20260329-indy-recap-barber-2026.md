@@ -4,7 +4,7 @@ title: IndyCar 2026 Round 4 Recap
 date: 2026-03-29
 thumbnail: https://jacen-safe.s3.us-west-004.backblazeb2.com/JsGXvZcZZ7Or.png
 ---
-After a pair of street courses and an oval, IndyCar has made its way to the first permanent road course of the season. There was a fair bit of excitement over the weekend, so let's look at some of the storylines from the race.
+After a pair of street courses and an oval, IndyCar has made its way to the first permanent road course of the season at Barber Motorsports Park. There was a fair bit of excitement over the weekend, so let's look at some of the storylines from the race.
 <!-- more -->
 
 ## Alex Palou Is Inevitable
