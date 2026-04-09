@@ -4,7 +4,7 @@ excludeFromCollections: true
 ---
 
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.feed.subtitle }}</subtitle>
   <link href="{{ metadata.feed.url }}" rel="self"/>
@@ -24,8 +24,8 @@ excludeFromCollections: true
     <updated>{{ post.date | toFeedTime }}</updated>
     <id>{{ absolutePostUrl }}</id>
     <category term="{{ post.data.tags | postType }}" />
-    <summary type="html"><p><img src="{{ post.data.thumbnail }}" /></p> {{ post.data.page.excerpt | rssSummary }} <p><a href="{{ absolutePostUrl }}">Read more...</a></p></summary>
-    <content type="html"><p><img src="{{ post.data.thumbnail }}" /></p> {{ post.data.page.excerpt | rssSummary }} <p><a href="{{ absolutePostUrl }}">Read more...</a></p></content>
+    <description><![CDATA[<p><img src="{{ post.data.thumbnail }}" /></p> {{ post.data.page.excerpt | rssSummary }} <p><a href="{{ absolutePostUrl }}">Read more...</a></p>]]></description>
+    <content:encoded><![CDATA[<p><img src="{{ post.data.thumbnail }}" /></p> {{ post.data.page.excerpt | rssSummary }} <p><a href="{{ absolutePostUrl }}">Read more...</a></p>]]></content:encoded>
   </entry>
   {%- endfor %}
 </feed>
