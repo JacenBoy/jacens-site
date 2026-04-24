@@ -27,7 +27,7 @@ jobs:
     # If you have a different build process, replace this with your own build steps
     - name: Install deps and build
       run: |
-        npm i
+        npm ci
         npm run build
         npm run index
     # When the dist_dir is ready, deploy it to neocities
