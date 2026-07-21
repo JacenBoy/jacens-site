@@ -33,7 +33,7 @@ What the hell happened to Hauger? He was so impressive at the start of the seaso
 
 Mick Schumacher, of all people, was the best of the rookies, finally bringing in his first top-10 of the season, finishing 8th. There aren't any qualifiers to that finish. He ran in and around the top 10 all afternoon and was on the same pit strategy as everyone else. This was a solid result purely on speed and merit.
 
-### Mich Schumacher - Eliminated
+### Mick Schumacher - Eliminated
 
 A top 10 isn't enough to save Schumacher from elimination. I wasn't expecting him to set the world on fire. I wasn't even really expecting him to be in contention for a win, but this? The racing IQ just isn't at the level of what I would expect from a former F1 driver. RLL is a dysfunctional organization, sure, but that car is capable of podium finishes. His Graham Rahal has confirmed that. What an utter disappointment of a driver.
 
@@ -43,7 +43,7 @@ A 12th-place finish might not sound like much, but for a backmarker team like JH
 
 ### Sting Ray Robb - Eliminated
 
-The fact that Sting Ray hasn't been dead last for the entire season is just a testament to the incompetence of Mich Schumacher, not any sign of improvement from Sting Ray. He is the quintessential pay driver: utterly devoid of talent and completely forgettable until the leaders come by to put him another lap down. Money makes the world go 'round, but this guy is still just a complete waste of a seat.
+The fact that Sting Ray hasn't been dead last for the entire season is just a testament to the incompetence of MicK Schumacher, not any sign of improvement from Sting Ray. He is the quintessential pay driver: utterly devoid of talent and completely forgettable until the leaders come by to put him another lap down. Money makes the world go 'round, but this guy is still just a complete waste of a seat.
 
 ## Poor Showing From ECR
 
