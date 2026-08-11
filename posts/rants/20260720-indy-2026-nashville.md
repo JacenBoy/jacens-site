@@ -21,37 +21,27 @@ Josef Newgarden qualified 2nd and finished there, despite multiple slow pit stop
 
 Caio Collet went out very early in the race. According to him, he was dealing with an ill-handling race car and tried to fix it with the in-car tools rather than take it easy and wait for pit stops. The fact that he recognized his error gives me hope, but it's still a bit of a setback for a driver hoping to find a promotion.
 
-### Caio Collet - Eliminated
-
-Collet has clearly been the strongest rookie of the season, but he's also his own biggest enemy. Not all of his poor results are his fault, but the DNFs at Indy and Nashville speak for themselves. Hopefully he can learn from them, because the potential is there. He's just missing the experience.
+**Caio Collet - Eliminated:** Collet has clearly been the strongest rookie of the season, but he's also his own biggest enemy. Not all of his poor results are his fault, but the DNFs at Indy and Nashville speak for themselves. Hopefully he can learn from them, because the potential is there. He's just missing the experience.
 
 Dennis Hauger was simply not very fast all day. From a 22nd-place qualifying position, he went a lap down early and ultimately DNFed for a 21st-place finish. It's a continuation of a very rough stretch for the Rookie of the Year leader.
 
-### Dennis Hauger - Eliminated
-
-What the hell happened to Hauger? He was so impressive at the start of the season, and now he's only hanging on to the rookie points lead by sheer dumb luck. It's not even an issue of DNFs; he's just slow most weekends, even the ones where his teammate is quick. I know he's a rookie, but I was really expecting more after the showing at St. Pete.
+**Dennis Hauger - Eliminated:** What the hell happened to Hauger? He was so impressive at the start of the season, and now he's only hanging on to the rookie points lead by sheer dumb luck. It's not even an issue of DNFs; he's just slow most weekends, even the ones where his teammate is quick. I know he's a rookie, but I was really expecting more after the showing at St. Pete.
 
 Mick Schumacher, of all people, was the best of the rookies, finally bringing in his first top-10 of the season, finishing 8th. There aren't any qualifiers to that finish. He ran in and around the top 10 all afternoon and was on the same pit strategy as everyone else. This was a solid result purely on speed and merit.
 
-### Mick Schumacher - Eliminated
-
-A top 10 isn't enough to save Schumacher from elimination. I wasn't expecting him to set the world on fire. I wasn't even really expecting him to be in contention for a win, but this? The racing IQ just isn't at the level of what I would expect from a former F1 driver. RLL is a dysfunctional organization, sure, but that car is capable of podium finishes. His Graham Rahal has confirmed that. What an utter disappointment of a driver.
+**Mick Schumacher - Eliminated:** A top 10 isn't enough to save Schumacher from elimination. I wasn't expecting him to set the world on fire. I wasn't even really expecting him to be in contention for a win, but this? The racing IQ just isn't at the level of what I would expect from a former F1 driver. RLL is a dysfunctional organization, sure, but that car is capable of podium finishes. His Graham Rahal has confirmed that. What an utter disappointment of a driver.
 
 ## A Decent Day for VeeKay
 
 A 12th-place finish might not sound like much, but for a backmarker team like JHR, it's definitely not nothing. It continues VeeKay's form of taking underwhelming equipment and dragging it to strong results. It's a contract year for him, and I'm hoping he can find an upgrade from his current ride, although there aren't many seats available that fit that description.
 
-### Sting Ray Robb - Eliminated
-
-The fact that Sting Ray hasn't been dead last for the entire season is just a testament to the incompetence of MicK Schumacher, not any sign of improvement from Sting Ray. He is the quintessential pay driver: utterly devoid of talent and completely forgettable until the leaders come by to put him another lap down. Money makes the world go 'round, but this guy is still just a complete waste of a seat.
+**Sting Ray Robb - Eliminated:** The fact that Sting Ray hasn't been dead last for the entire season is just a testament to the incompetence of MicK Schumacher, not any sign of improvement from Sting Ray. He is the quintessential pay driver: utterly devoid of talent and completely forgettable until the leaders come by to put him another lap down. Money makes the world go 'round, but this guy is still just a complete waste of a seat.
 
 ## Poor Showing From ECR
 
 Short oval specialist Christian Rasmussen hit the wall hard enough to break a toe link, and while they were able to get the car repaired, he was only able to improve to 22nd by the end of the race. It's the Rasmussen experience: he goes all out, and sometimes he crosses the line.
 
-### Christian Rasmussen - Eliminated
-
-This is what Rasmussen's big contract extension got him: eliminated from championship contention with a third of the season left to go. He's always been a one-trick pony, and it's shown this season. What on earth was ECR thinking?
+**Christian Rasmussen - Eliminated:** This is what Rasmussen's big contract extension got him: eliminated from championship contention with a third of the season left to go. He's always been a one-trick pony, and it's shown this season. What on earth was ECR thinking?
 
 Alexander Rossi had a bizarre DNF. He braked suddenly on the racing line, leaving Scott Dixon no room to do anything but plow into the back of him. Rossi claimed he was trying to get to pit road and put the blame on Dixon. I couldn't see anyone who bought that excuse. Rossi was past the commitment line by the time he braked and was a lane and a half off the bottom. He was never going to make it. What a moron.
 
@@ -67,9 +57,7 @@ The second question is what happens to Mick Schumacher. Graham Rahal and Louis F
 
 There can only be one at DCR. One of their cars is used to fund the other, and neither of their drivers has funding for 2027. Hauger is the young, exciting option, but Romain Grosjean is a known quantity, even if he's had a lackluster season overall. The question remains: which one stays?
 
-### Romain Grosjean - Eliminated
-
-It hasn't been the fairy-tale return to DCR that Grosjean hoped it would be. He's had strong qualifying performances, but he still finds himself fighting for the bottom spot in the Leader's Circle.
+**Romain Grosjean - Eliminated:** It hasn't been the fairy-tale return to DCR that Grosjean hoped it would be. He's had strong qualifying performances, but he still finds himself fighting for the bottom spot in the Leader's Circle.
 
 ## Championship Standings
 
