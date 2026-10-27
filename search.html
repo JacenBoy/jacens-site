@@ -9,5 +9,38 @@ title: Search
 <div class="container-fluid mb-4" style="min-height: 45vh;">
   <div id="search" class="search"></div>
 
-  <script src="/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search', showImages: false });"></script>
+    <script>
+    function initPagefind() {
+      var IDLE_MS = 2000;
+      var MIN_LEN = 3;
+      var timer = null, pending = "", lastSent = "";
+
+      function countResults() {
+        var msg = document.querySelector("#search .pagefind-ui__message");
+        if (!msg) return 0;
+        var n = msg.textContent.replace(/,/g, "").match(/\d+/);
+        return n ? parseInt(n[0], 10) : 0;
+      }
+
+      function send() {
+        if (!pending || pending === lastSent) return;
+        lastSent = pending;
+        window._paq = window._paq || [];
+        window._paq.push(["trackSiteSearch", pending, "Pagefind", countResults()]);
+      }
+
+      new PagefindUI({
+        element: "#search",
+        showImages: false,
+        processTerm: function (term) {
+          if (timer) clearTimeout(timer);
+          pending = (term || "").trim();
+          if (pending.length >= MIN_LEN) timer = setTimeout(send, IDLE_MS);
+          return term;
+        }
+      });
+    }
+  </script>
+  <script src="/pagefind/pagefind-ui.js" onload="initPagefind()"></script>
+</div>
 </div>
